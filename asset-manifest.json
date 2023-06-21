@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/VanityEsteticaLandingPage/static/css/main.e7032198.css",
+    "main.js": "/VanityEsteticaLandingPage/static/js/main.f353b97c.js",
+    "static/media/ServicesBackgroundImage.jpg": "/VanityEsteticaLandingPage/static/media/ServicesBackgroundImage.ce110823f506dd42e069.jpg",
+    "static/media/AboutImage.jpg": "/VanityEsteticaLandingPage/static/media/AboutImage.ed9e0c19c6d203d28ae6.jpg",
+    "static/media/BgImage.jpg": "/VanityEsteticaLandingPage/static/media/BgImage.ddcc2e795f4509007339.jpg",
+    "index.html": "/VanityEsteticaLandingPage/index.html",
+    "main.e7032198.css.map": "/VanityEsteticaLandingPage/static/css/main.e7032198.css.map",
+    "main.f353b97c.js.map": "/VanityEsteticaLandingPage/static/js/main.f353b97c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7032198.css",
+    "static/js/main.f353b97c.js"
+  ]
+}
