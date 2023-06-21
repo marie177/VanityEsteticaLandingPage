@@ -1,38 +1,196 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .home-container{
+
+} */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav-logo-container {
+  max-width: 60px !important;
+}
+
+
+.navbar-links-container a {
+  margin-right: 3rem;
+  text-decoration: none;
+  color: #A5617C;
+  font-size: 1.1rem;
+  font-weight: 600;
+  width: 50%;
+}
+
+.home-banner-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-banner-image-background {
+  width: 100%;
+  height: 500px;
+  background-attachment: fixed;
+  background-image: url('./Assets/BgImage.jpg');
+  background-size: cover;
+  background-position-y: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home-banner-image-background h1 {
+  font-size: 10rem;
+  font-weight: 600;
+  margin: 0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-banner-image-background h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 6px;
+  line-height: 0%;
+}
+
+.home-banner-text {
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-banner-text p {
+  max-width: 60%;
+  font-size: 20px;
+  border-width: 2px 0px;
+  border-color: #CAAAB7;
+  border-style: solid;
+  padding: 20px 0px;
+  text-align: center;
+  color: #616161;
+}
+
+/* SECTION ABOUT */
+
+.about-container {
+  display: flex;
+  height: 600px;
+}
+
+
+.about-background-image {
+  background-color: #F3E7EC;
+  width: 50%;
+  padding: 40px 80px;
+}
+
+.about-background-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+.about-presentation {
+  background-color: #CAAAB7;
+  width: 50%;
+  color: #FFF;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-title {
+  font-size: 2em;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  border-width: 1px 0px;
+  border-color: #fff;
+  border-style: solid;
+  padding: 10px 0px;
+  width: 50%;
+}
+
+.about-paragraph {
+  padding: 40px 0px 0px 0px;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.btn-contact {
+  all: unset;
+  padding: 15px 19px;
+  background-color: #E7BFC7;
+  border-radius: 25px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin-top: auto;
+}
+
+.banner-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.box-item {
+  padding: 90px 100px;
+  text-align: center;
+  width: 50%;
+  color: #616161;
+}
+
+.box-item img {
+  width: 55px;
+}
+
+.box-item h2 {
+  margin: 3px 0px 9px 0px;
+}
+
+.box-item p {
+  font-size: 0.8rem;
+}
+
+.services-banner {
+  height: 320px;
+  /* background-attachment: fixed; */
+  background: linear-gradient(0deg, rgba(165, 97, 124, 0.4), rgba(165, 97, 124, 0.4)), url('/src/Assets/ServicesBackgroundImage.jpg');
+  background-size: cover;
+  background-position-y: 70%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  padding: 50px 460px 50px 80px;
+}
+
+.services-title {
+  border-width: 1px 0px;
+  border-color: #fff;
+  border-style: solid;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+}
+
+.services-description {
+  padding: 10px 0px;
+  font-size: 20px;
 }
