@@ -6,12 +6,12 @@ const Treatments = () => {
     return (
     <div className='services-container'>
         <div className='services-banner'>
-        <h1 className='services-title'>TRATAMIENTOS</h1>
+        <h2 className='services-title'>TRATAMIENTOS</h2>
         <p className='services-description'>Brindamos a nuestros pacientes una amplia variedad de tratamientos dedicados al cuidado de la salud y la Belleza.</p>
         </div>
 
         <TreatmentsItem/>
-        <TreatmentsItem/>
+         <TreatmentsItem/> 
     </div>
     )
 }
