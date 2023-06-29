@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import About from './About';
 import BannerMisionVision from './BannerMisionVision';
 import Treatments from './Treatments';
+import Contact from './Contact/Contact';
 import BannerBackgroundImage from '../Assets/BgImage.jpg';
 
 const Home = () => {
@@ -10,7 +11,7 @@ const Home = () => {
     <div className='home-container'>
         <Navbar/>
 
-        <div className='home-banner-container'>
+        <div className='home-banner-container' id='home'>
             <div className='home-banner-image-background'>              
               <h1>VANITY</h1>       
               <h2>BEAUTY CENTER</h2>  
@@ -23,6 +24,7 @@ const Home = () => {
         <About/>
         <BannerMisionVision/>
         <Treatments/>
+        <Contact/>
     </div>
   )
 }

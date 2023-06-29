@@ -3,7 +3,7 @@ import BackgroundImage from '../Assets/AboutImage.jpg'
 
 const About = () => {
     return (
-    <div className='about-container'>
+    <div className='about-container' id='about'>
         <div className='about-background-image'>
             <img src={BackgroundImage} alt=""/>
         </div>

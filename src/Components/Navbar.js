@@ -30,13 +30,13 @@ export const Navbar = () => {
   
     return (
     <nav>
-            <img className='nav-logo-container' src={Logo} alt=''/>
+           <a  href="#home"> <img className='nav-logo-container' src={Logo} alt=''/></a>
 
         <div className='navbar-links-container'>
-            <a href="">Inicio</a>
-            <a href="">Nosotros</a>
-            <a href="">Tratamientos</a>
-            <a href="">Contacto</a>
+            <a href="#home">Inicio</a>
+            <a href="#about">Nosotros</a>
+            <a href="#treatments">Tratamientos</a>
+            <a href="#contact">Contacto</a>
         </div>
       
     </nav>

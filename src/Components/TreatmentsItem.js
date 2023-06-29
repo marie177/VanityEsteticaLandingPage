@@ -1,10 +1,10 @@
 import React from 'react'
 import BackgroundImage from '../Assets/AboutImage.jpg'
-import TreatmentListItem from './TreatmentListItem'
+import TreatmentsCarrousel from './TreatmentsCarrousel/TreatmentsCarrousel'
 
 const TreatmentsItem = () => {
     return (
-        <div>
+        <div className='overflow-h'>
             <div className='treatments-item-container '>
                 <div className='item-container'>
                     <h2 className='title-item-container'>FACIALES</h2>
@@ -13,7 +13,7 @@ const TreatmentsItem = () => {
                     <button className='btn-contact'>VER TODOS</button>
                 </div>
 
-                <TreatmentListItem/>
+               <TreatmentsCarrousel/>
             </div>
         </div>
     )
