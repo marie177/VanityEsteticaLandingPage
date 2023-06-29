@@ -4,6 +4,7 @@ import About from './About';
 import BannerMisionVision from './BannerMisionVision';
 import Treatments from './Treatments';
 import Contact from './Contact/Contact';
+import Footer from './Footer';
 import BannerBackgroundImage from '../Assets/BgImage.jpg';
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
         <BannerMisionVision/>
         <Treatments/>
         <Contact/>
+        <Footer/>
     </div>
   )
 }

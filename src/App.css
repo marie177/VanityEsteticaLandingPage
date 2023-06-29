@@ -166,7 +166,7 @@ nav {
 }
 
 .box-item {
-  padding: 0 50px;
+  padding: 0 90px;
   padding-top: 60px;
   text-align: center;
   width: 50%;
@@ -228,7 +228,7 @@ nav {
   padding: 40px;
   display: flex;
   flex-direction: row;
-  margin: 40px 50px;
+  margin: 40px 80px;
   box-shadow: 0px 8px 41px 6px rgba(0, 0, 0, 0.1);
   position: relative;
 }
@@ -247,5 +247,48 @@ nav {
   text-align: left;
   margin-bottom: 20px;
   font-size: 18px;
+}
 
+.footer{
+  height: 120px;
+  background: rgb(224,196,208);
+  background: linear-gradient(0deg, rgba(224,196,208,1) 0%, rgba(255,255,255,1) 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #616161;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer .sections-list{
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.footer span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.icon-estetica{
+  background-image: url('./Assets/Logo.png');
+}
+
+.icon-instagram{
+  background-image: url('./Assets/Icons/instagram-footer.svg');
+}
+
+.icon-whatsapp{
+  background-image: url('./Assets/Icons/whatsapp-footer.svg');
 }
