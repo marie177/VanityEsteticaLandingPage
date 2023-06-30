@@ -31,7 +31,7 @@ const ContactForm = () => {
                 <div className='row'>
                     <div className='column'>
                         <label className='label-form'>Consulta</label>
-                        <input type='text' className='input-form'></input>
+                        <input type='text' className='input-form h-100px'></input>
                     </div>
                 </div>
 

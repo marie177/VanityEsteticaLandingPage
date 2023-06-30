@@ -1,0 +1,146 @@
+@media only screen and (max-width: 480px) {
+    .navbar-links-container {
+        display: none !important;
+    }
+
+    .home-banner-image-background h1 {
+        font-size: 5rem;
+    }
+
+    .home-banner-image-background h2 {
+        font-size: 1rem;
+    }
+
+    .home-banner-text p {
+        font-size: 15px;
+    }
+
+    .about-container {
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .about-background-image {
+        width: 100%;
+        height: 100px;
+        padding: 0;
+    }
+
+    .about-presentation {
+        width: 100%;
+    }
+
+    .about-title {
+        font-size: 20px;
+    }
+
+    .about-paragraph {
+        padding: 20px 0px 0px 0px;
+        font-size: 14px;
+    }
+
+    .btn-contact {
+        margin-top: 20px;
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+
+
+    /* - BANNER MISION VISION - */
+    .banner-container {
+        flex-direction: column;
+    }
+
+    .box-item {
+        width: 100%;
+        padding: 0 45px;
+        padding-top: 60px;
+    }
+
+    .box-item img {
+        width: 40px;
+    }
+
+    .box-item h2 {
+        margin: 2px 0px 9px 0px;
+        font-size: 20px;
+    }
+
+    .box-item p {
+        font-size: 14px;
+    }
+
+
+    .services-banner {
+        padding: 10px;
+    }
+
+    .services-title {
+        line-height: 40px;
+        font-size: 22px;
+    }
+
+    .services-description {
+        font-size: 15px;
+    }
+
+    .treatments-item-container {
+        margin: 30px 20px;
+        padding: 30px;
+        box-shadow: 0px 8px 30px 1px rgba(0, 0, 0, 0.1);
+    }
+
+    .treatments-item-container .title-item-container{
+        margin-bottom: 10px;
+    }
+
+    .treatments-item-container .btn-contact {
+        position: absolute;
+        bottom: 10px;
+        right: 15px;
+    }
+
+    .treatments-carrousel-container {
+        visibility: hidden;
+    }
+
+    .item-container {
+        width: 100%;
+    }
+
+
+
+    .contact-container {
+        padding-top: 60px !important;
+    }
+
+    .contact-body {
+        flex-direction: column;
+    }
+
+    .contact-data {
+        width: 100% !important;
+    }
+
+    .contact-form-container {
+        width: 100% !important;
+        border: none !important;
+        padding: 0 20px !important;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer .sections-list {
+        gap: 15px;
+    }
+}
