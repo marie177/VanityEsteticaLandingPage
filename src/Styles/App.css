@@ -17,9 +17,11 @@ a{
   cursor: pointer;
 }
 
+/*MODIFICADO NUEVA VERSION*/
 nav {
   position: fixed;
-  background-color: #FFF;
+  /* background-color: #FFF; */
+  background-color: transparent;
   width: 100%;
   min-width: 320px;
   display: flex;
@@ -27,7 +29,7 @@ nav {
   justify-content: space-between;
   min-height: 60px;
   z-index: 9999;
-  box-shadow: 0px 8px 41px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0px 8px 41px 6px rgba(0, 0, 0, 0.1); */
 }
 
 .overflow-h {
@@ -54,31 +56,60 @@ nav {
   flex-direction: column;
 }
 
+
+/*MODIFICADO NUEVA VERSION*/
+.home-banner-image-background-container{
+position: relative;
+width: 100%;
+/* height: 560px; */
+height: 100vh;
+background-color: #F3E7EC;
+/*AGREGADO*/
+/* padding: 80px; */
+}
+
 .home-banner-image-background {
   width: 100%;
-  height: 560px;
+  height: 100%;
   background-attachment: fixed;
-  background-image: url('/src/Assets/BgImage.jpg');
+  /* background-image: url('/src/Assets/images/HomeBackgroundImage.jpg'); */
   background-size: cover;
-  background-position-y: 85%;
+  /* background-position-y: 90%; */
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  filter: blur(1px);
+  border-radius: 25px;
 }
 
-.home-banner-image-background h1 {
-  font-size: 10rem;
+/*MODIFICADO NUEVA VERSION*/
+.home-banner-image-title{
+  /* color: #A5617C; */
+
+  position: absolute;
+  /* top: 30%; */
+  bottom: 10%;
+  /* left: calc(50% - 240px); */
+  left: 100px;
+  text-align: left;
+  width: 50%;
+}
+
+.home-banner-image-title h1 {
+  font-size: 4.5rem;
   font-weight: 600;
   margin: 0;
 }
 
-.home-banner-image-background h2 {
-  font-size: 2rem;
-  font-weight: 400;
+.home-banner-image-title h2 {
+  width: 80%;
+  font-size: 0.8rem;
+  font-weight: 500;
   margin: 0;
-  letter-spacing: 6px;
-  line-height: 0%;
+  letter-spacing: 2px;
+  line-height: 30px;
 }
 
 .home-banner-text {
@@ -152,13 +183,19 @@ nav {
 .btn-contact {
   all: unset;
   padding: 15px 19px;
-  background-color: #E7BFC7;
+  background-color: #CAAAB7;
   border-radius: 25px;
   letter-spacing: 0.5px;
   cursor: pointer;
   align-self: flex-end;
   margin-top: auto;
   color: #fff;
+  transition: .3s;
+}
+
+.btn-contact:hover{
+  transition: .3s;
+  background-color: #E7BFC7;
 }
 
 .banner-container {
@@ -183,7 +220,7 @@ nav {
 }
 
 .box-item p {
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 
 .services-container{
@@ -233,7 +270,7 @@ nav {
   box-shadow: 0px 8px 41px 6px rgba(0, 0, 0, 0.1);
   position: relative;
   height: 100%;
-  min-height: 250px;
+  min-height: 200px;
 }
 
 

@@ -19,7 +19,7 @@ const Footer = () => {
 
         <div>
             <a href='https://www.instagram.com/vanity.estetica_ok/' target='_blank'><span className='icon-instagram'></span></a>
-            <a href="#home" target='_blank'><span className='icon-whatsapp'></span></a>
+            <a  href="https://wa.me/+5491167917230"  target='_blank'><span className='icon-whatsapp'></span></a>
         </div>
     </div>
   )

@@ -17,12 +17,12 @@ const Contact = () => {
 
                     <div className='contact-data-item'>
                         <span className='contact-data-icon i-phone'></span>
-                        <a>011 4792 6658</a>
+                        <a href="https://wa.me/+5491167917230" target="_blank">+54 9 11 6791 7230</a>
                     </div>
 
                     <div className='contact-data-item'>
                         <span className='contact-data-icon i-whatsapp'></span>
-                        <a>+54 9 11 3302 5222</a>
+                        <a href="https://wa.me/+5491167917230"  target="_blank">+54 9 11 6791 7230</a>
                     </div>
 
                     <div className='contact-data-item'>

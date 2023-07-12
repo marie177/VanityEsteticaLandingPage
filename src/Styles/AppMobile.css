@@ -3,11 +3,20 @@
         display: none !important;
     }
 
-    .home-banner-image-background h1 {
+    .home-banner-image-background {
+        background-position-x: 50%;
+    }
+
+    .home-banner-image-title{
+        left: calc(50% - 140px);
+        top: 38%;
+    }
+
+    .home-banner-image-title h1 {
         font-size: 5rem;
     }
 
-    .home-banner-image-background h2 {
+    .home-banner-image-title h2 {
         font-size: 1rem;
     }
 
@@ -92,6 +101,11 @@
 
     .treatments-item-container .title-item-container{
         margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .description-item-container{
+        font-size: 15px;
     }
 
     .treatments-item-container .btn-contact {

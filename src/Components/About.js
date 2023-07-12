@@ -13,11 +13,14 @@ const About = () => {
             <h2 className='about-title'>SOBRE VANITY</h2>
             
             <p className='about-paragraph'>
-                Brindamos a nuestros pacientes una amplia variedad de tratamientos dedicados al cuidado de la salud y la Belleza.
+                Vanity Estética reúne a un equipo de profesionales altamente capacitados, contamos también con tecnología avanzada aplicada a la resolución o tratamientos de patologías corporales estéticas y cosmetológicas.
             </p>
 
             <p className='about-paragraph'>
-                Contamos con tecnología avanzada láser para el tratamiento de depilación efectiva y tratamientos de rejuvenecimiento y reparación como son la Mesoterapia Corporal, Facial y Capilar, Liporeducción, Peeling, Rellenos, Eliminación de Arrugas y Líneas de Expresión y asesoramiento Nutricional.
+                {/* Contamos con tecnología avanzada láser para el tratamiento de depilación efectiva y tratamientos de rejuvenecimiento y reparación como son la Mesoterapia Corporal, Facial y Capilar, Liporeducción, Peeling, Rellenos, Eliminación de Arrugas y Líneas de Expresión y asesoramiento Nutricional. */}
+
+                Nuestros tratamientos están diseñados para eliminar celulitis, flacidez, adiposidad localizada, tonificar músculo, moldear la figura corporal, entre otros. Contamos con láseres de fotorejuvenecimiento para eliminar manchas, melasmas, pigmentaciones, cerrar poros, eliminar telangestacias y recuperar la salud de tu piel.
+                
             </p>
 
             <button className='btn-contact'>CONTACTANOS!</button>
