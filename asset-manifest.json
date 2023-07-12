@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/VanityEsteticaLandingPage/static/css/main.e7032198.css",
-    "main.js": "/VanityEsteticaLandingPage/static/js/main.f353b97c.js",
+    "main.css": "/VanityEsteticaLandingPage/static/css/main.5290e31b.css",
+    "main.js": "/VanityEsteticaLandingPage/static/js/main.bec1e3ca.js",
     "static/media/ServicesBackgroundImage.jpg": "/VanityEsteticaLandingPage/static/media/ServicesBackgroundImage.ce110823f506dd42e069.jpg",
+    "static/media/HomeBackgroundImage.jpg": "/VanityEsteticaLandingPage/static/media/HomeBackgroundImage.28e05da80c92932f2710.jpg",
     "static/media/AboutImage.jpg": "/VanityEsteticaLandingPage/static/media/AboutImage.ed9e0c19c6d203d28ae6.jpg",
     "static/media/BgImage.jpg": "/VanityEsteticaLandingPage/static/media/BgImage.ddcc2e795f4509007339.jpg",
+    "static/media/instagram.svg": "/VanityEsteticaLandingPage/static/media/instagram.b1eae64cb79fb6de3313.svg",
+    "static/media/instagram-footer.svg": "/VanityEsteticaLandingPage/static/media/instagram-footer.69a1db5546708e23fb98.svg",
+    "static/media/whatsapp-footer.svg": "/VanityEsteticaLandingPage/static/media/whatsapp-footer.c36624715b6d7d20f17d.svg",
+    "static/media/whatsapp.svg": "/VanityEsteticaLandingPage/static/media/whatsapp.ca90c674d92964c4fa47.svg",
+    "static/media/arrow-right.svg": "/VanityEsteticaLandingPage/static/media/arrow-right.bcef9c02feefd8d751b2.svg",
     "index.html": "/VanityEsteticaLandingPage/index.html",
-    "main.e7032198.css.map": "/VanityEsteticaLandingPage/static/css/main.e7032198.css.map",
-    "main.f353b97c.js.map": "/VanityEsteticaLandingPage/static/js/main.f353b97c.js.map"
+    "static/media/phone.svg": "/VanityEsteticaLandingPage/static/media/phone.f86efc3c8a89cd273e90.svg",
+    "static/media/map.svg": "/VanityEsteticaLandingPage/static/media/map.f7026d9e86329bb412ce.svg",
+    "main.5290e31b.css.map": "/VanityEsteticaLandingPage/static/css/main.5290e31b.css.map",
+    "main.bec1e3ca.js.map": "/VanityEsteticaLandingPage/static/js/main.bec1e3ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.e7032198.css",
-    "static/js/main.f353b97c.js"
+    "static/css/main.5290e31b.css",
+    "static/js/main.bec1e3ca.js"
   ]
 }
