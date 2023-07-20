@@ -8,31 +8,32 @@ import Footer from './Footer';
 import BannerBackgroundImage from '../Assets/BgImage.jpg';
 import BannerBackgroundImage2 from '../Assets/images/HomeBackgroundImage.jpg';
 
+
 const Home = () => {
+
+
   return (
     <div className='home-container'>
-      <Navbar />
-
+         
       <div className='home-banner-container' id='home'>
+      
         <div  className='home-banner-image-background-container'> 
+      
           <div className='home-banner-image-background'></div>
           <div className='home-banner-image-title'>
           <h1>Vanity Estética</h1>
             <h2>Te brindamos las mejores soluciones a los numerosos problemas faciales y corporales</h2>
-
-     
           </div>
         </div>
         <div className='home-banner-text'>
           <p>Te brindamos las <strong>mejores soluciones</strong> a los numerosos problemas faciales y corporales.</p>
         </div>
       </div>
-
+    
       <About />
       <BannerMisionVision />
       <Treatments />
       <Contact />
-      <Footer />
     </div>
   )
 }

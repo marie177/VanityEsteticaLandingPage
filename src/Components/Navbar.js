@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import Logo from "../Assets/Logo.png";
+import { Link, Route } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
+
 import {
     Box, 
     Drawer, 
@@ -30,13 +33,13 @@ export const Navbar = () => {
   
     return (
     <nav>
-           <a  href="#home"> <img className='nav-logo-container' src={Logo} alt=''/></a>
+         <Link to="/"> <img className='nav-logo-container' src={Logo} alt=''/></Link>
 
         <div className='navbar-links-container'>
-            <a href="#home">Inicio</a>
-            <a href="#about">Nosotros</a>
-            <a href="#treatments">Tratamientos</a>
-            <a href="#contact">Contacto</a>
+            <NavHashLink to="/#home">Inicio</NavHashLink>
+            <NavHashLink to="/#about">Nosotros</NavHashLink>
+            <NavHashLink to="/#treatments">Tratamientos</NavHashLink>
+            <NavHashLink to="/#contact">Contacto</NavHashLink>
         </div>
       
     </nav>

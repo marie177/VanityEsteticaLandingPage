@@ -15,10 +15,10 @@ const Contact = () => {
                         <a>Buenos Aires, Tigre</a>
                     </div>
 
-                    <div className='contact-data-item'>
+                    {/* <div className='contact-data-item'>
                         <span className='contact-data-icon i-phone'></span>
                         <a href="https://wa.me/+5491167917230" target="_blank">+54 9 11 6791 7230</a>
-                    </div>
+                    </div> */}
 
                     <div className='contact-data-item'>
                         <span className='contact-data-icon i-whatsapp'></span>
