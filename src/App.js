@@ -13,6 +13,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={ <Home />} />
+        <Route path="/VanityEsteticaLandingPage" element={ <Home />} />
         <Route path="treatments" element={ <Treatment />} />
         <Route path="treatments/:treatmentCategory" element={ <Treatment />} />
       </Routes>
