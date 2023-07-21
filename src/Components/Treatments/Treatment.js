@@ -24,7 +24,7 @@ const Treatment = () => {
           <NavLink exact to="/VanityEsteticaLandingPage/treatments/Corporales" className='link' activeClassName="active-link">CORPORALES</NavLink>
           <NavLink exact to="/VanityEsteticaLandingPage/treatments/Faciales" className='link' activeClassName="active-link">FACIALES</NavLink>
           <NavLink exact to="/VanityEsteticaLandingPage/treatments/Cosmetologicos" className='link' activeClassName="active-link">COSMETOLÓGICOS</NavLink>
-          <NavLink exact to="/VanityEsteticaLandingPage/treatments/Belleza_de_ojos" className='link' activeClassName="active-link">BELLEZA DE OJOS</NavLink>
+          <NavLink exact to="/VanityEsteticaLandingPage/treatments/Belleza-de-ojos" className='link' activeClassName="active-link">BELLEZA DE OJOS</NavLink>
           <NavLink exact to="/VanityEsteticaLandingPage/treatments/Masajes" className='link' activeClassName="active-link">MASAJES</NavLink>
         </div>
 
