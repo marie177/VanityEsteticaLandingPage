@@ -263,6 +263,12 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
 
 .item-container {
   width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.item-container .btn-contact{
+  align-self: flex-start !important;
 }
 
 .treatments-item-container {
@@ -289,7 +295,7 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
 .description-item-container {
   color: #616161;
   text-align: left;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   font-size: 18px;
 }
 
