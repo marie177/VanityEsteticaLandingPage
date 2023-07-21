@@ -2,7 +2,7 @@
 
 @media only screen and (max-width: 480px) {
     .treatments-list-container .treatments-types-button .link{
-        flex: 1 0 41%;
+        flex: 1 0 41% !important;
     }
 
     .treatments-list-container .treatment-item{
