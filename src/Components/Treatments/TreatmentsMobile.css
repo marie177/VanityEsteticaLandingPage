@@ -1,0 +1,10 @@
+
+
+@media only screen and (max-width: 480px) {
+    .treatments-list-container .treatment-item{
+        padding: 20px 50px 0px 50px;
+    }
+    .treatment-item .treatment-item-content{
+        padding: 10px 0;
+    }
+}

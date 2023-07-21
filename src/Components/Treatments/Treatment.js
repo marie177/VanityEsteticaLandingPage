@@ -1,5 +1,7 @@
 import React from 'react'
 import './Treatments.css'
+import './TreatmentsMobile.css'
+import './TreatmentsTablet.css'
 import TreatmentCategory from './TreatmentCategory'
 import { useParams, NavLink } from 'react-router-dom'
 const Treatment = () => {
