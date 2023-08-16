@@ -2,4 +2,8 @@
     .treatments-item-container {
         min-height: 225px !important;
     }
+
+    .about-background-image img {
+        object-position: 0px -60px !important;
+    }
 }

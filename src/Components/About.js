@@ -1,5 +1,5 @@
 import React from 'react'
-import BackgroundImage from '../Assets/AboutImage.jpg'
+import BackgroundImage from '../Assets/images/Equipo_Vanity_1.jpg'
 
 const About = () => {
     return (
@@ -17,8 +17,6 @@ const About = () => {
             </p>
 
             <p className='about-paragraph'>
-                {/* Contamos con tecnología avanzada láser para el tratamiento de depilación efectiva y tratamientos de rejuvenecimiento y reparación como son la Mesoterapia Corporal, Facial y Capilar, Liporeducción, Peeling, Rellenos, Eliminación de Arrugas y Líneas de Expresión y asesoramiento Nutricional. */}
-
                 Nuestros tratamientos están diseñados para eliminar celulitis, flacidez, adiposidad localizada, tonificar músculo, moldear la figura corporal, entre otros. Contamos con láseres de fotorejuvenecimiento para eliminar manchas, melasmas, pigmentaciones, cerrar poros, eliminar telangestacias y recuperar la salud de tu piel.
                 
             </p>

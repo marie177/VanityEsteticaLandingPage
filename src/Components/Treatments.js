@@ -9,11 +9,11 @@ const Treatments = () => {
                 <h2 className='treatments-title'>TRATAMIENTOS</h2>
                 <p className='treatments-description'>Nuestros tratamientos están diseñados para eliminar celulitis, flacidez, adiposidad localizada, tonificar músculo, moldear la figura corporal, entre otros.</p>
             </div>
-            <TreatmentsItem treatmentCategory="Corporales"/>
+            {/* <TreatmentsItem treatmentCategory="Corporales"/> */}
             <TreatmentsItem treatmentCategory="Faciales"/>
-            <TreatmentsItem treatmentCategory="Cosmetológicos"/>
-            <TreatmentsItem treatmentCategory="Belleza-de-ojos"/>
-            <TreatmentsItem treatmentCategory="Masajes"/>
+            {/* <TreatmentsItem treatmentCategory="Cosmetológicos"/>
+            <TreatmentsItem treatmentCategory="Belleza_de_ojos"/>
+            <TreatmentsItem treatmentCategory="Masajes"/> */}
         </div>
     )
 }

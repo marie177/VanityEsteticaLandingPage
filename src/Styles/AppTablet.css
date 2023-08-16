@@ -51,6 +51,11 @@
         padding: 0;
     }
 
+    .about-background-image img {
+        border-radius: 0px !important;
+        object-position: 0px -75px;
+    }
+
     .about-presentation {
         width: 100%;
     }

@@ -15,7 +15,7 @@ const TreatmentCategory = (props) => {
         case "Faciales":
             tratamientosArray = TratamientosFaciales;
             break;
-        case "Cosmetologicos":
+        case "Cosmetologicos" || "Cosmetológicos":
             tratamientosArray = TratamientosCosmetologicos;
             break;
         case "Belleza_de_ojos":
@@ -33,8 +33,7 @@ const TreatmentCategory = (props) => {
             {
                 tratamientosArray.map(tratamiento => {
                     return (
-                        <TreatmentItem title={tratamiento.title} paragraph1={tratamiento.paragraph1} paragraph2={tratamiento.paragraph2}
-                            paragraph3={tratamiento.paragraph3} paragraph4={tratamiento.paragraph4} />
+                        <TreatmentItem tratamiento={tratamiento} />
                     )
                 })
             }

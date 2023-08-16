@@ -1,16 +1,101 @@
 [
     {
-        "title": "",
-        "paragraph1": "",
-        "paragraph2":"",
-        "paragraph3":"",
-        "paragraph4":""
+        "title": "LIMPIEZA DE CUTIS PROFUNDA",
+        "contents": [
+            {
+                "position": 1,
+                "content": "La limpieza de cutis profunda incluye:"
+            },
+            {
+                "position": 2,
+                "content": [
+                    {
+                        "li": "Leche de limpieza"
+                    },
+                    {
+                        "li": "Exfoliante"
+                    },
+                    {
+                        "li": "Punta de Diamante"
+                    },
+                    {
+                        "li": "Mascarilla desincrustante"
+                    },
+                    {
+                        "li": "Extracciones con espatula ultrasonica"
+                    },
+                    {
+                        "li": "Bruma descongestiva"
+                    },
+                    {
+                        "li": "Mascarilla adecuad al biotipo cutaneo"
+                    },
+                    {
+                        "li": "Serum con activo según necesidad"
+                    },
+                    {
+                        "li": "Crema hidratante"
+                    },
+                    {
+                        "li": "Masajes faciales con ICE GLOBES y ROLL FACE."
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "content": "SE BRINDA Y SE ORIENTA AL PACIENTE CON UNA RUTINA DE LIMPIEZA FACIAL DIARIA PARA APOYO DOMICILIARIO."
+            }
+        ],
+        "urlImage": "/Assets/Images/LimpiezaCutis_V1.jpg"
     },
     {
-        "title": "",
-        "paragraph1": "",
-        "paragraph2":"",
-        "paragraph3":"",
-        "paragraph4":""
+        "title": "PEELING QUIMICO",
+        "contents": [
+            {
+                "position": 1,
+                "content": "PEELING QUIMICO FACIAL O CORPORAL."
+            },
+            {
+                "position": 2,
+                "content": "Incluye:"
+            },
+            {
+                "position": 3,
+                "content": [
+                    {
+                        "li": "Evaluacion profesional cosmiatrica"
+                    },
+                    {
+                        "li": "Limpieza"
+                    },
+                    {
+                        "li": "Exfoliación"
+                    },
+                    {
+                        "li": "Extracciónes si son necesarias"
+                    },
+                    {
+                        "li": "Colocación del acido seleccionado por la profesional según patología a tratar."
+                    },
+                    {
+                        "li": "Mascarilla descongestiva"
+                    },
+                    {
+                        "li": "Ice globes, jade roll"
+                    },
+                    {
+                        "li": "Crema hidratante"
+                    },
+                    {
+                        "li": "GUIA DE RUTINA DE APOYO DOMICILIARIO aconsejada."
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "content": ""
+            }
+        ],
+        "urlImage": "/Assets/Images/LimpiezaCutis_V1.jpg"
     }
 ]

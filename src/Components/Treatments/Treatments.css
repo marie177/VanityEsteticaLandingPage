@@ -1,11 +1,12 @@
-
-.treatments-list-container .treatments-types-button{
+.treatments-list-container .treatments-types-button {
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
     padding: 20px 80px 0px 80px;
 }
-.treatments-list-container .treatments-types-button button, .link{
+
+.treatments-list-container .treatments-types-button button,
+.link {
     all: unset;
     cursor: pointer;
     padding: 10px;
@@ -19,27 +20,102 @@
     transition: 0.3s;
 }
 
-.treatments-list-container .treatments-types-button .active{
+.treatments-list-container .treatments-types-button .active {
     background-color: #A5617C !important;
     transition: 0.3s;
 }
 
-.treatments-list-container .treatment-item{
+.treatments-list-container .treatment-item {
     display: flex;
     padding: 60px 100px 0px 100px;
 }
 
-.treatments-list-container .treatment-item img{
+
+.treatments-list-container .treatment-item .treatment-slider-container {
     border-radius: 10px;
     width: 35%;
-    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100%;
 }
 
-.treatment-item .treatment-item-content{
+.treatment-slider-container .treatment-slider {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    scroll-behavior:unset;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.treatment-slider-buttons-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-slider{
+    all: unset;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #CAAAB7;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-slider:hover{
+    background-color: #A5617C;
+    transition: 0.3s;
+}
+
+.treatment-slider img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.treatment-item .treatment-item-content {
+    width: 70%;
     display: flex;
     flex-direction: column;
     padding: 0px 0px 0px 80px;
     gap: 1rem;
     text-align: justify;
     word-break: break-word;
+}
+
+.treatment-item .treatment-item-content h2 {
+    text-transform: uppercase;
+}
+
+.treatment-item .treatment-item-content li {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-top: 2.5px;
+}
+
+.treatment-item .treatment-item-content li .icon-li {
+    background-color: #A5617C;
+    height: 5px;
+    width: 5px;
+    margin-right: 10px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.treatment-item .treatment-item-content li p {
+    width: 100%;
+    margin: 0;
 }

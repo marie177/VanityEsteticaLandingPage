@@ -1,16 +1,19 @@
 import React from 'react'
 import BackgroundImage from '../../Assets/AboutImage.jpg'
-import { Link, Navigate } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 
-const TreatmentListItem = () => {
+const TreatmentListItem = (props) => {
+    let pathTest = "/VanityEsteticaLandingPage/treatments/" + props.treatmentCategory + "#"+props.tratamiento.replace(/ /g, '-');
+
     return (
         <div className='treatments-items-list'>
-            <Link to="treatments">
+            <NavHashLink  to={pathTest}>
                 <div className='item-list'>
-                    <h2 className='treatment-name'>VENUS LEGACY</h2>
-                    <img src={BackgroundImage} />
+                    <h2 className='treatment-name'>{props.tratamiento}</h2>
+                    <img src={process.env.PUBLIC_URL + props.imagen} alt="test"/>
                 </div>
-            </Link>
+            </NavHashLink>
         </div>
     )
 }

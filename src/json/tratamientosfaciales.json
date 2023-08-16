@@ -1,30 +1,112 @@
 [
     {
         "title": "VENUS LEGACY",
-        "paragraph1": "Venus Legacy es un tratamiento que combina 3 tecnologías; la radiofrecuencia multipolar que es una corriente que se transmite en forma de calor al contacto de la piel, campos magnéticos que nos ayudan a drenar la grasa que estamos moviendo por medio del sistema linfático y succión pulsada que nos ayuda a penetrar la corriente de calor.",
-        "paragraph2":"Venus Legacy te permite: La activación de la producción de colágeno y elastina, mejorando así la calidad y apariencia de la piel (estrías, celulitis, flacidez) Moldear la figura. Reducir depósitos de grasa. Brindarle un tensado a la piel de la cara y el cuello.",
-        "paragraph3":"Se adapta a las necesidades del paciente y puede utilizarse en cualquier zona del cuerpo: abdomen, flancos, piernas, glúteos, brazos, cuello, escote, cara y espalda.",
-        "paragraph4":""
-    },
-    {
-        "title": "HIFU 7D",
-        "paragraph1": "Hifu 7D es un ultrasonido macrofocalizado. Que su objetivo es rejuvenecer y reafirmar la piel en la parte facial Y reducir el volumen en la parte corporal. En la parte corporal, tensa y reduce y reafirma!",
-        "paragraph2":"Facial Atravieza distintas capas de la piel desde la mas superficial hasta la mas profunda, proDuce colageno y elastina. Ademas el ultrasonido moviliza la adiposidad localizada que luego es eliminada de manera natural por micción",
-        "paragraph3":"Las sesiones van a depender del paciente. Se puede llegar a realizar 1 sesion cada 3 meses y un máximo 3 sesiones al año",
-        "paragraph4":""
+        "contents": [
+            {
+                "position": 1,
+                "content": "Venus Legacy es un tratamiento que combina 3 tecnologías; la radiofrecuencia multipolar que es una corriente que se transmite en forma de calor al contacto de la piel, campos magnéticos que nos ayudan a drenar la grasa que estamos moviendo por medio del sistema linfático y succión pulsada que nos ayuda a penetrar la corriente de calor."
+            },
+            {
+                "position": 2,
+                "content": "Venus Legacy te permite: La activación de la producción de colágeno y elastina, mejorando así la calidad y apariencia de la piel (estrías, celulitis, flacidez) Moldear la figura. Reducir depósitos de grasa. Brindarle un tensado a la piel de la cara y el cuello."
+            },
+            {
+                "position": 3,
+                "content": "Se adapta a las necesidades del paciente y puede utilizarse en cualquier zona del cuerpo: abdomen, flancos, piernas, glúteos, brazos, cuello, escote, cara y espalda."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/images/VenusLegacyFacial_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+            }
+        ] 
     },
     {
         "title": "CRIORADIOFRECUENCIA",
-        "paragraph1": "La Crio-Frecuencia es una nueva terapia controlada con frío que permite ingresar aproximadamente 25 grados bajo cero desde el cabezal a la dermis, a la vez que las ondas electromagnéticas incrementan la temperatura interna en 55 grados. Esto provoca un choque en el interior de la piel por la combinación del frio externo con el calor interno provocando un “shock térmico”, responsable del tensado instantáneo de la piel (Efecto Lifting).",
-        "paragraph2":"Es característico de este tejido la resistencia al paso de la electricidad, lo que permite incrementar la temperatura hasta cuatro veces más que los otros tejidos generando vasodilatación y acelerando el metabolismo oxidativo de los lipidos y facilitando su eliminación. El calor desencadena aumento de mediadores inflamatorios (caspasas e interleuquinas) que llevan a la apoptosis del adipocito",
-        "paragraph3":"",
-        "paragraph4":""
+        "contents": [
+            {
+                "position": 1,
+                "content": "La Crio-Frecuencia es una nueva terapia controlada con frío que permite ingresar aproximadamente 25 grados bajo cero desde el cabezal a la dermis, a la vez que las ondas electromagnéticas incrementan la temperatura interna en 55 grados. Esto provoca un choque en el interior de la piel por la combinación del frio externo con el calor interno provocando un “shock térmico”, responsable del tensado instantáneo de la piel (Efecto Lifting)."
+            },
+            {
+                "position": 2,
+                "content": "Es característico de este tejido la resistencia al paso de la electricidad, lo que permite incrementar la temperatura hasta cuatro veces más que los otros tejidos generando vasodilatación y acelerando el metabolismo oxidativo de los lipidos y facilitando su eliminación. El calor desencadena aumento de mediadores inflamatorios (caspasas e interleuquinas) que llevan a la apoptosis del adipocito."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_3.jpg"
+            },
+            {
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_4.jpg"
+            }
+        ]
     },
     {
         "title": "IPL",
-        "paragraph1": "IPL (luz pulsada intensa) es un tratamiento que combate los signos de envejecimiento en la piel: - Aporta luminosidad al rostro. - Difumina las primeras arrugas. - Elimina el acné, la rosácea y las manchas faciales. - Mejorar la flacidez facial y contraer los poros de la piel. - Permite unificar el tono y la textura de la piel. - Elimina las venitas de la cara y las cicatrices causadas por el acné y enrojecimiento. - Ayuda a sintetizar nuevo colágeno en la dermis. - Aporta un aspecto más joven y descansado al rostro. Puede aplicarse tanto en rostro como en cuello, escote y manos.",
-        "paragraph2":"Los resultados son evidentes desde la primera sesión, pero las mejoras se perciben de manera progresiva a medida que avanza el tratamiento. Por lo general son necesarias un mínimo de 3 y 5 sesiones, según las necesidades de cada paciente, que se aplican con un lapso de aproximadamente 1 mes entre sesión y sesión. ",
-        "paragraph3":"Tras el tratamiento, el paciente puede retomar inmediatamente su actividad normal. Puede notar una sensación de calor y enrojecimiento que remiten por sí solas al cabo de unashoras.",
-        "paragraph4":"Es necesario evitar el sol y proteger la piel con un filtro solar de índice alto."
+        "contents": [
+            {
+                "position": 1,
+                "content": "IPL (luz pulsada intensa) es un tratamiento que combate los signos de envejecimiento en la piel:"
+            },
+            {
+                "position": 2,
+                "content": [
+                    {
+                        "li": "Aporta luminosidad al rostro."
+                    },
+                    {
+                        "li": "Difumina las primeras arrugas."
+                    },
+                    {
+                        "li": "Elimina el acné, la rosácea y las manchas faciales."
+                    },
+                    {
+                        "li": "Mejorar la flacidez facial y contraer los poros de la piel."
+                    },
+                    {
+                        "li": "Permite unificar el tono y la textura de la piel."
+                    },
+                    {
+                        "li": "Elimina las venitas de la cara y las cicatrices causadas por el acné y enrojecimiento."
+                    },
+                    {
+                        "li": "Ayuda a sintetizar nuevo colágeno en la dermis."
+                    },
+                    {
+                        "li": "Aporta un aspecto más joven y descansado al rostro. Puede aplicarse tanto en rostro como en cuello, escote y manos."
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "content": "Los resultados son evidentes desde la primera sesión, pero las mejoras se perciben de manera progresiva a medida que avanza el tratamiento. Por lo general son necesarias un mínimo de 3 y 5 sesiones, según las necesidades de cada paciente, que se aplican con un lapso de aproximadamente 1 mes entre sesión y sesión."
+            },
+            {
+                "position": 4,
+                "content": "Tras el tratamiento, el paciente puede retomar inmediatamente su actividad normal. Puede notar una sensación de calor y enrojecimiento que remiten por sí solas al cabo de unashoras."
+            },
+            {
+                "position": 5,
+                "content": "Es necesario evitar el sol y proteger la piel con un filtro solar de índice alto."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/DSC_0551.jpg"
+            }
+        ]
     }
 ]

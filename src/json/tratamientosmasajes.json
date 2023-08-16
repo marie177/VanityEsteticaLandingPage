@@ -1,16 +1,37 @@
 [
     {
-        "title": "",
-        "paragraph1": "",
-        "paragraph2":"",
-        "paragraph3":"",
-        "paragraph4":""
-    },
-    {
-        "title": "",
-        "paragraph1": "",
-        "paragraph2":"",
-        "paragraph3":"",
-        "paragraph4":""
+        "title": "masaje Descontracturante",
+        "contents": [
+            {
+                "position": 1,
+                "content": "Se realiza un Masaje Descontracturante, que en la misma sesion es acompañado de UNA de las siguientes técnicas según el paciente lo desee o la profesional crea necesario:"
+            },
+            {
+                "position": 2,
+                "content": [
+                    {
+                        "li": "Ventosas chinas"
+                    },
+                    {
+                        "li": "Piedras calientes"
+                    },
+                    {
+                        "li": "Deportivo"
+                    },
+                    {
+                        "li": "Reflexología"
+                    },
+                    {
+                        "li": "Digitopuntura"
+                    },
+                    {
+                        "li": "Sonoro (con esferas chinas)"
+                    },
+                    {
+                        "li": "Alineamiento óseo"
+                    }
+                ]
+            }
+        ]
     }
 ]

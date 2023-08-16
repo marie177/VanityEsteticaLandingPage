@@ -6,7 +6,9 @@ import { NavHashLink } from 'react-router-hash-link';
 
 const TreatmentsItem = (props) => {
     const [goToTreatments, setGoToTreatments] = React.useState(false);
+    
     let pathTest = "/VanityEsteticaLandingPage/treatments/" + props.treatmentCategory + "#treatments";
+    if(props.treatmentCategory == "Cosmetológicos") pathTest = "/VanityEsteticaLandingPage/treatments/Cosmetologicos#treatments";
     if (goToTreatments) {
         let path = "/VanityEsteticaLandingPage/treatments/" + props.treatmentCategory + "#treatments";
         return <Navigate to={path} />;
@@ -15,7 +17,7 @@ const TreatmentsItem = (props) => {
         <div className='overflow-h'>
             <div className='treatments-item-container overflow-h'>
                 <div className='item-container'>
-                    <h2 className='title-item-container'>{props.treatmentCategory.replace(/-/g, ' ')}</h2>
+                    <h2 className='title-item-container'>{props.treatmentCategory.replace(/_/g, ' ')}</h2>
                     <p className='description-item-container'>Brindamos a nuestros pacientes una amplia variedad de tratamientos dedicados al cuidado de la salud y la Belleza.</p>
                     {/* 
                     <button className='btn-contact' onClick={() => {setGoToTreatments(true);}}>VER TODOS</button> */}
@@ -23,7 +25,7 @@ const TreatmentsItem = (props) => {
                     <NavHashLink className='btn-contact'  to={pathTest}>VER TODOS</NavHashLink>
                 </div>
 
-                <TreatmentsCarrousel />
+                <TreatmentsCarrousel treatmentCategory={props.treatmentCategory}/>
             </div>
         </div>
     )

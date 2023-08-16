@@ -68,18 +68,19 @@
     object-fit: cover;
     border-radius: 15px;
     transition: .6s;
-  
-  }
-  
-  
-  
-  .treatments-items-list:hover img{
-    opacity: 0.2;
+    opacity: 0.5;
     transition: .6s;
   }
   
+  
+  
+   .treatments-items-list:hover img{
+    opacity: 0.1;
+    transition: .6s;
+  } 
+  
   .treatment-name{
-    display: none;
+    /* display: none; */
     transition: .6s;
     position: absolute;
     z-index: 999;
@@ -88,8 +89,8 @@
     font-size: 1.8rem;
   }
   
-  .treatments-items-list:hover .treatment-name{
+  /* .treatments-items-list:hover .treatment-name{
     transition: .6s;
     display: block;
-  }
+  } */
   

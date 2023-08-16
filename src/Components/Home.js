@@ -4,10 +4,6 @@ import About from './About';
 import BannerMisionVision from './BannerMisionVision';
 import Treatments from './Treatments';
 import Contact from './Contact/Contact';
-import Footer from './Footer';
-import BannerBackgroundImage from '../Assets/BgImage.jpg';
-import BannerBackgroundImage2 from '../Assets/images/HomeBackgroundImage.jpg';
-
 
 const Home = () => {
 

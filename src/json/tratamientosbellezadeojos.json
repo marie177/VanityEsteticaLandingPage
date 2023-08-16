@@ -1,16 +1,29 @@
 [
     {
-        "title": "",
-        "paragraph1": "",
-        "paragraph2":"",
-        "paragraph3":"",
-        "paragraph4":""
+        "title": "Lifting de Pestañas ",
+        "contents": [
+            {
+                "position": 1,
+                "content": "Lifting de Pestañas es un tratamiento que alarga y crea una ligera curva hacia arriba de manera natural y duradera, consiguiendo mayor longitud y espesor. Para aquellas que tengan las pestañas medias o largas, rectas o sin forma, y deseen conseguir un resultado natural."
+            }
+        ]
     },
     {
-        "title": "",
-        "paragraph1": "",
-        "paragraph2":"",
-        "paragraph3":"",
-        "paragraph4":""
+        "title": "PERFILADO CON VISAGISMO",
+        "contents": [
+            {
+                "position": 1,
+                "content": " Es una técnica para conocer qué diseño (anchura, grosor, dimensión y curvatura) deberían tener tus cejas según las facciones y dimensiones de tu rostro. Si se hace bien, esta técnica aporta equilibrio y armonía al rostro haciendo que luzca más perfecto y bello."
+            }
+        ]
+    },
+    {
+        "title": "laminado de cejas",
+        "contents": [
+            {
+                "position": 1,
+                "content": "Es un tratamiento especialmente indicado para cejas onduladas y/o rebeldes. Consiste en la aplicación de producto específico en toda la extensión de las cejas para alisarlas y peinarlas de forma permanente."
+            }
+        ]
     }
 ]
