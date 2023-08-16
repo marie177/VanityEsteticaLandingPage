@@ -32,6 +32,17 @@
                     }
                 ]
             }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+            }
         ]
     }
 ]

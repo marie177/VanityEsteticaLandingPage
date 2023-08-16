@@ -46,7 +46,17 @@
                 "content": "SE BRINDA Y SE ORIENTA AL PACIENTE CON UNA RUTINA DE LIMPIEZA FACIAL DIARIA PARA APOYO DOMICILIARIO."
             }
         ],
-        "urlImage": "/Assets/Images/LimpiezaCutis_V1.jpg"
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+            }
+        ]
     },
     {
         "title": "PEELING QUIMICO",
@@ -96,6 +106,16 @@
                 "content": ""
             }
         ],
-        "urlImage": "/Assets/Images/LimpiezaCutis_V1.jpg"
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+            }
+        ]
     }
 ]

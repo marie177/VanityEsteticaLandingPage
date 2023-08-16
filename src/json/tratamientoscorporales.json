@@ -28,7 +28,11 @@
                 "content": "El protocolo indica un tratamiento de 6 a 8 sesiones, para realizar 1 vez por semana, allí verás cambios considerables. Dependiendo la zona y patología, sea flacidez, celulitis, arrugas, quizás con esas 6 a 8 sea suficiente y luego hacer un mantenimiento de 1 sesión cada 15 dias, y luego 1 al mes."
             }
         ],
-        "urlImage": "/Assets/Images/LimpiezaCutis_V1.jpg"
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            }
+        ]
     },
     {
         "title": "VENUS LEGACY",
@@ -44,6 +48,14 @@
             {
                 "position": 3,
                 "content": "Se adapta a las necesidades del paciente y puede utilizarse en cualquier zona del cuerpo: abdomen, flancos, piernas, glúteos, brazos, cuello, escote, cara y espalda."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
             }
         ]
     },
@@ -61,6 +73,17 @@
             {
                 "position": 3,
                 "content": "Apta para reducción corporal, de adiposidad localizada, mejorar y reducir la celulitis.También tensa la piel, dando una sensación de 'planchado' mejorando visiblemente la flacidez."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
             }
         ]
     },
@@ -86,6 +109,17 @@
                     {"li": "Actúa en cuádriceps, abductores y pantorrillas"}
                 ]
             }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+            }
         ]
     },
     {
@@ -99,6 +133,17 @@
                 "position": 2,
                 "content": "Trabajamos con criolipolisis succion que consiste en dos cabezales que funcionan con técnica de succión al vacío que permite aislar así el tejido adiposo que se desea eliminar para mejorar la figura. El procedimiento permite absorber al vacío, sin efectos secundarios, por lo que no actúa de forma invasiva y es rápido."
             }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+            }
         ]
     },
     {
@@ -111,6 +156,17 @@
             {
                 "position": 2,
                 "content": "Trabajamos con Criolipólisis plana de 4 cabezales, lo que permite trabajar a mayor profundidad y en un área más amplia."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
             }
         ]
     },
@@ -132,6 +188,17 @@
             {
                 "position": 4,
                 "content": "Es característico de este tejido la resistencia al paso de la electricidad, lo que permite incrementar la temperatura hasta cuatro veces más que los otros tejidos generando vasodilatación y acelerando el metabolismo oxidativo de los lipidos y facilitando su eliminación. El calor desencadena aumento de mediadores inflamatorios (caspasas e interleuquinas) que llevan a la apoptosis del adipocito"
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
             }
         ]
     }
