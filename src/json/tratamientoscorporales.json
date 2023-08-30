@@ -30,7 +30,16 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+                "url": "/Assets/Images/Vela_Slim_Plus_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/Vela_Slim_Plus_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/Body_Go_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/Body_Go_3.jpg"
             }
         ]
     },
@@ -52,10 +61,22 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+                "url": "/Assets/Images/Venus_Legacy_Corporal_1.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+                "url": "/Assets/Images/Venus_Legacy_Corporal_2.jpg"
+            },   
+            {
+                "url": "/Assets/Images/Venus_Legacy_Corporal_11.jpg"
+            },
+            {
+                "url": "/Assets/Images/Venus_Legacy_Corporal_5.jpg"
+            },
+            {
+                "url": "/Assets/Images/Venus_Legacy_Corporal_6.jpg"
+            },
+            {
+                "url": "/Assets/Images/Venus_Legacy_Corporal_7.jpg"
             }
         ]
     },
@@ -77,13 +98,19 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+                "url": "/Assets/Images/Lipolaser_4.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+                "url": "/Assets/Images/Lipolaser_2.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+                "url": "/Assets/Images/Lipolaser_5.jpg"
+            },
+            {
+                "url": "/Assets/Images/Vela_Slim_Plus_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/Vela_Slim_Plus_3.jpg"
             }
         ]
     },
@@ -112,13 +139,16 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+                "url": "/Assets/Images/Mio_Up_8.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+                "url": "/Assets/Images/Mio_Up_3.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+                "url": "/Assets/Images/Mio_Up_5.jpg"
+            },
+            {
+                "url": "/Assets/Images/Mio_Up_2.jpg"
             }
         ]
     },
@@ -160,13 +190,19 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+                "url": "/Assets/Images/Criolipolisis_Plana_2.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+                "url": "/Assets/Images/Criolipolisis_Plana_3.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+                "url": "/Assets/Images/Criolipolisis_Plana_6.jpg"
+            },
+            {
+                "url": "/Assets/Images/Vela_Slim_Plus_5.jpg"
+            },
+            {
+                "url": "/Assets/Images/Vela_Slim_Plus_3.jpg"
             }
         ]
     },
@@ -192,13 +228,16 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_2.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_3.jpg"
+            },
+            {
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_4.jpg"
             }
         ]
     }

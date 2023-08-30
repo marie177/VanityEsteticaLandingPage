@@ -13,18 +13,19 @@ const TreatmentSlider = (props) => {
         if(autoPlay){
             const interval = setInterval(() => {
                 selectNewImage(false, props.arrayImages);
-            }, 1500)
+            }, 2000)
 
             return () => clearInterval(interval);
         }
     });
 
     const selectNewImage = (btnTrigger = false, images, next = true) => {
-        console.log(autoPlay)
+        console.log(autoPlay)       
         if(btnTrigger) {
             setAutoPlay(0);
         }
         setTimeout(() => {
+            try{
             const sliderSize = (props.arrayImages.length - 1) * slider.current.offsetWidth;
 
             if (next) {
@@ -33,9 +34,12 @@ const TreatmentSlider = (props) => {
             else {
                 slider.current.scrollLeft = (slider.current.scrollLeft == 0) ? slider.current.scrollLeft = sliderSize : (slider.current.scrollLeft - slider.current.offsetWidth);
             }
-
-        }, 500);
-
+            }
+            catch(e){
+                console.log("entro al catch");
+                return;
+            }
+        }, 500);   
     }
 
     const previous = () => {

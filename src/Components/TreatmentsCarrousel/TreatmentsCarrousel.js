@@ -17,7 +17,7 @@ const TreatmentsCarrousel = (props) => {
         case "Faciales":
             tratamientosArray = TratamientosFaciales;
             break;
-        case "Cosmetológicos":
+        case "Cosmetologicos":
             tratamientosArray = TratamientosCosmetologicos;
             break;
         case "Belleza_de_ojos":

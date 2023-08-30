@@ -8,7 +8,7 @@ const TreatmentsItem = (props) => {
     const [goToTreatments, setGoToTreatments] = React.useState(false);
     
     let pathTest = "/VanityEsteticaLandingPage/treatments/" + props.treatmentCategory + "#treatments";
-    if(props.treatmentCategory == "Cosmetológicos") pathTest = "/VanityEsteticaLandingPage/treatments/Cosmetologicos#treatments";
+    if(props.treatmentCategory == "Cosmetologicos") pathTest = "/VanityEsteticaLandingPage/treatments/Cosmetologicos#treatments";
     if (goToTreatments) {
         let path = "/VanityEsteticaLandingPage/treatments/" + props.treatmentCategory + "#treatments";
         return <Navigate to={path} />;

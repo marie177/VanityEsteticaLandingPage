@@ -77,8 +77,10 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
   width: 100%;
   height: 100%;
   background-attachment: fixed;
-   background-image: url('/src/Assets/images/Vanity/DSC_0601.jpg'); 
+  background: linear-gradient(0deg, rgba(179, 111, 138, 0.534), rgb(246 212 226 / 57%)), url('/src/Assets/images/Vanity/DSC_0601.jpg');
+   /* background-image: url('/src/Assets/images/Vanity/DSC_0601.jpg');  */
   background-size: cover;
+  background-attachment: fixed;
   /* background-position-y: 90%; */
   background-repeat: no-repeat;
   display: flex;
@@ -89,31 +91,30 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
   /* border-radius: 25px; */
 }
 
-/*MODIFICADO NUEVA VERSION*/
 .home-banner-image-title{
-  /* color: #A5617C; */
-
+  color:#000;
   position: absolute;
-  /* top: 30%; */
-  bottom: 10%;
-  text-align: left;
+  top: 35%; 
+  text-align: center;
   padding: 0 80px;
   width: 100%;
+  text-transform: uppercase;
 }
 
 .home-banner-image-title h1 {
-  font-size: 4.5rem;
-  font-weight: 600;
+  font-size: 12rem;
+  font-weight: 500;
   margin: 0;
+  line-height: 11rem;
 }
 
 .home-banner-image-title h2 {
-  width: 80%;
-  font-size: 0.8rem;
-  font-weight: 500;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
   margin: 0;
-  letter-spacing: 2px;
-  line-height: 30px;
+  letter-spacing: 5px;
+  line-height: 2rem;
 }
 
 .home-banner-text {
@@ -132,6 +133,34 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
   padding: 20px 0px;
   text-align: center;
   color: #616161;
+}
+
+.homer-banner-btn{
+  all: unset;
+  padding: 15px 19px;
+  background: #A5617C;
+  border-radius: 25px;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  color: #fff;
+  transition: .3s;
+  font-weight: bold;
+  display: table;
+  margin: 40px auto;
+}
+
+.btn-contact--icon{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url("../Assets/Icons/arrow-down.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  filter: invert(1);
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* SECTION ABOUT */
@@ -200,8 +229,10 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
 
 .btn-contact:hover{
   transition: .3s;
-  background: #A5617C;
+  background: #e7bfc7;
 }
+
+
 
 .banner-container {
   display: flex;
@@ -270,6 +301,10 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
 
 .item-container .btn-contact{
   align-self: flex-start !important;
+}
+
+.item-container .btn-contact:hover{
+  background-color: #A5617C;
 }
 
 .treatments-item-container {

@@ -107,6 +107,7 @@
     padding: 5px 10px;
     border-radius: 5px;
     color: #616161;
+    word-break: break-word;
 }
 
 .btn-submit-form {

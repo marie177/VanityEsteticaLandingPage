@@ -21,7 +21,7 @@ const About = () => {
                 
             </p>
 
-            <button className='btn-contact'>CONTACTANOS!</button>
+            <a href="#contact" className='btn-contact'>CONTACTANOS!</a>
         </div>
     </div>
     )

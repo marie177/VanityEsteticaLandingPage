@@ -11,7 +11,7 @@ const Treatments = () => {
             </div>
             <TreatmentsItem treatmentCategory="Corporales"/>
             <TreatmentsItem treatmentCategory="Faciales"/>
-            <TreatmentsItem treatmentCategory="Cosmetológicos"/>
+            <TreatmentsItem treatmentCategory="Cosmetologicos"/>
             <TreatmentsItem treatmentCategory="Belleza_de_ojos"/>
             <TreatmentsItem treatmentCategory="Masajes"/>
         </div>

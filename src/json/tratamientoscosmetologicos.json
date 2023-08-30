@@ -48,13 +48,16 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+                "url": "/Assets/Images/Limpieza_Cutis_1.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+                "url": "/Assets/Images/Limpieza_Cutis_2.jpg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+                "url": "/Assets/Images/Limpieza_Cutis_3.jpg"
+            },
+            {
+                "url": "/Assets/Images/Limpieza_Cutis_4.jpg"
             }
         ]
     },
@@ -115,6 +118,72 @@
             },
             {
                 "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+            }
+        ]
+    },
+    {
+        "title": "DERMAPEN",
+        "contents": [
+            {
+                "position": 1,
+                "content": "Consiste en un dispositivo con microagujas que crean microperforaciones controladas en la epidermis y la dermis, estimulando así la producción de colágeno y elastina. Se combina con un coctel de activos seleccionado por la profesional segun el biotipocutaneo de cada paciente"
+            },
+            {
+                "position": 2,
+                "content": "Este proceso de renovación celular ayuda a:"
+            },
+            {
+                "position": 3,
+                "content": [
+                    {
+                        "li": "Reducir arrugas"
+                    },
+                    {
+                        "li": "Cicatrices de acné"
+                    },
+                    {
+                        "li": "Estrías"
+                    },
+                    {
+                        "li": "Mmejora la luminosidad general de la piel"
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "content": "En nuestro centro de estética, ofrecemos tratamientos con Dermapen para lograr una piel más suave, firme y rejuvenecida."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/Dermapen_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/Dermapen_2.jpg"
+            }
+        ]
+    },
+    {
+        "title": "DERMAPLANING",
+        "contents": [
+            {
+                "position": 1,
+                "content": "El dermaplaning es un procedimiento de exfoliación suave y altamente efectivo que ayuda a lograr una piel más radiante y suave."
+            },
+            {
+                "position": 2,
+                "content": "Durante el tratamiento, se utiliza una hoja quirúrgica de bisturí para eliminar las capas externas de células muertas de la piel y el vello facial no deseado, dejando un cutis fresco y rejuvenecido."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/Dermaplaning_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/Dermaplaning_5.jpg"
+            },
+            {
+                "url": "/Assets/Images/Dermaplaning_8.jpg"
             }
         ]
     }

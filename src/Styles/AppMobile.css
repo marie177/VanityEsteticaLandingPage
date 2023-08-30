@@ -6,4 +6,9 @@
     .about-background-image img {
         object-position: 0px -60px !important;
     }
+
+    .home-banner-image-title h1 {
+        font-size: 5.5rem !important;
+        line-height: 5rem !important;
+    }
 }
