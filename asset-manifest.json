@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/VanityEsteticaLandingPage/static/css/main.0a65d85b.css",
-    "main.js": "/VanityEsteticaLandingPage/static/js/main.c37dd23c.js",
+    "main.js": "/VanityEsteticaLandingPage/static/js/main.8b708826.js",
     "static/media/DSC_0601.jpg": "/VanityEsteticaLandingPage/static/media/DSC_0601.0554cc016b47f906f22d.jpg",
     "static/media/Equipo_Vanity_1.jpg": "/VanityEsteticaLandingPage/static/media/Equipo_Vanity_1.9f6b84728aac33db4751.jpg",
     "static/media/DSC_0430.jpg": "/VanityEsteticaLandingPage/static/media/DSC_0430.821592f54c1f07f5092b.jpg",
@@ -16,10 +16,10 @@
     "static/media/map.svg": "/VanityEsteticaLandingPage/static/media/map.f7026d9e86329bb412ce.svg",
     "static/media/arrow-down.svg": "/VanityEsteticaLandingPage/static/media/arrow-down.dde79ef992e39e54c307.svg",
     "main.0a65d85b.css.map": "/VanityEsteticaLandingPage/static/css/main.0a65d85b.css.map",
-    "main.c37dd23c.js.map": "/VanityEsteticaLandingPage/static/js/main.c37dd23c.js.map"
+    "main.8b708826.js.map": "/VanityEsteticaLandingPage/static/js/main.8b708826.js.map"
   },
   "entrypoints": [
     "static/css/main.0a65d85b.css",
-    "static/js/main.c37dd23c.js"
+    "static/js/main.8b708826.js"
   ]
 }
