@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/VanityEsteticaLandingPage/static/css/main.d6bb0419.css",
-    "main.js": "/VanityEsteticaLandingPage/static/js/main.46d640b2.js",
-    "static/media/ServicesBackgroundImage.jpg": "/VanityEsteticaLandingPage/static/media/ServicesBackgroundImage.ce110823f506dd42e069.jpg",
-    "static/media/HomeBackgroundImage.jpg": "/VanityEsteticaLandingPage/static/media/HomeBackgroundImage.28e05da80c92932f2710.jpg",
+    "main.css": "/VanityEsteticaLandingPage/static/css/main.0a65d85b.css",
+    "main.js": "/VanityEsteticaLandingPage/static/js/main.c37dd23c.js",
+    "static/media/DSC_0601.jpg": "/VanityEsteticaLandingPage/static/media/DSC_0601.0554cc016b47f906f22d.jpg",
+    "static/media/Equipo_Vanity_1.jpg": "/VanityEsteticaLandingPage/static/media/Equipo_Vanity_1.9f6b84728aac33db4751.jpg",
+    "static/media/DSC_0430.jpg": "/VanityEsteticaLandingPage/static/media/DSC_0430.821592f54c1f07f5092b.jpg",
     "static/media/AboutImage.jpg": "/VanityEsteticaLandingPage/static/media/AboutImage.ed9e0c19c6d203d28ae6.jpg",
-    "static/media/BgImage.jpg": "/VanityEsteticaLandingPage/static/media/BgImage.ddcc2e795f4509007339.jpg",
     "static/media/instagram.svg": "/VanityEsteticaLandingPage/static/media/instagram.b1eae64cb79fb6de3313.svg",
     "static/media/instagram-footer.svg": "/VanityEsteticaLandingPage/static/media/instagram-footer.69a1db5546708e23fb98.svg",
     "static/media/whatsapp-footer.svg": "/VanityEsteticaLandingPage/static/media/whatsapp-footer.c36624715b6d7d20f17d.svg",
@@ -14,11 +14,12 @@
     "index.html": "/VanityEsteticaLandingPage/index.html",
     "static/media/phone.svg": "/VanityEsteticaLandingPage/static/media/phone.f86efc3c8a89cd273e90.svg",
     "static/media/map.svg": "/VanityEsteticaLandingPage/static/media/map.f7026d9e86329bb412ce.svg",
-    "main.d6bb0419.css.map": "/VanityEsteticaLandingPage/static/css/main.d6bb0419.css.map",
-    "main.46d640b2.js.map": "/VanityEsteticaLandingPage/static/js/main.46d640b2.js.map"
+    "static/media/arrow-down.svg": "/VanityEsteticaLandingPage/static/media/arrow-down.dde79ef992e39e54c307.svg",
+    "main.0a65d85b.css.map": "/VanityEsteticaLandingPage/static/css/main.0a65d85b.css.map",
+    "main.c37dd23c.js.map": "/VanityEsteticaLandingPage/static/js/main.c37dd23c.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6bb0419.css",
-    "static/js/main.46d640b2.js"
+    "static/css/main.0a65d85b.css",
+    "static/js/main.c37dd23c.js"
   ]
 }
