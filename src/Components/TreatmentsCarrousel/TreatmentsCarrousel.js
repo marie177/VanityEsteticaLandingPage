@@ -31,7 +31,7 @@ const TreatmentsCarrousel = (props) => {
 
     }
     return (
-        <div class="treatments-carrousel-container">
+        <div className="treatments-carrousel-container">
             {
                 tratamientosArray.map(tratamiento => {
                     return (

@@ -9,8 +9,53 @@
         font-size: 14px;
     }
 
+    .nav-logo-container{
+        margin: 0 10px;
+    }
+
     .navbar-links-container {
-        display: none !important;
+        display: none;
+    } 
+    .navbar-btn{
+        display: block;
+        opacity: 1 !important;
+    }
+
+    .navbar-close-btn{
+        background-image: url('/src/Assets/Icons/close.svg');     
+        right: 0;
+    }
+
+    .responsive-nav .nav-logo-container{
+        left: 0;
+    }
+
+    .responsive-nav .nav-logo-container, .navbar-close-btn{
+        position: absolute;
+        top: 0;
+    }
+
+    .responsive-nav{
+        height: 100%;
+    }
+
+    .responsive-nav .navbar-menu-btn{
+        display: none;
+    }
+
+    .responsive-nav .navbar-links-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        position: relative;
+        height: 100%;
+    }
+
+    .responsive-nav .navbar-links-container a{
+        font-size: 1.2rem !important;
     }
 
     .home-banner-image-background {

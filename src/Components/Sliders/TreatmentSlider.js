@@ -7,7 +7,8 @@ const TreatmentSlider = (props) => {
 
     const slider = useRef(null);
     const [selectedIndex, setSelectedIndex] = useState(0);
-    const [autoPlay, setAutoPlay] = useState(1);
+    //const [autoPlay, setAutoPlay] = useState(1);
+    const [autoPlay, setAutoPlay] = useState(0);
 
     useEffect(() => {
         if(autoPlay){
