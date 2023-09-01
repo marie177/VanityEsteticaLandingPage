@@ -39,6 +39,7 @@ nav {
 .nav-logo-container {
   max-width: 45px !important;
   margin-left: 3rem;
+  transition: 1s;
 }
 
 
@@ -181,7 +182,7 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
 .about-container {
   display: flex;
   height: 600px;
-  padding-top: 60px;
+  padding-top: 55px;
 }
 
 
@@ -273,7 +274,7 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
 }
 
 .treatments-container{
-  padding-top: 60px;
+  padding-top: 55px;
 }
 
 .treatments-banner {

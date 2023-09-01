@@ -39,10 +39,10 @@ export const Navbar = () => {
             <NavHashLink to="/VanityEsteticaLandingPage#home"> <img className='nav-logo-container' src={Logo} alt='' /></NavHashLink>
 
             <div className='navbar-links-container'>
-                <NavHashLink to="/VanityEsteticaLandingPage#home">Inicio</NavHashLink>
-                <NavHashLink to="/VanityEsteticaLandingPage#about">Nosotros</NavHashLink>
-                <NavHashLink to="/VanityEsteticaLandingPage#treatments">Tratamientos</NavHashLink>
-                <NavHashLink to="/VanityEsteticaLandingPage#contact">Contacto</NavHashLink>     
+                <NavHashLink to="/VanityEsteticaLandingPage#home" onClick={showNavbar}>Inicio</NavHashLink>
+                <NavHashLink to="/VanityEsteticaLandingPage#about" onClick={showNavbar}>Nosotros</NavHashLink>
+                <NavHashLink to="/VanityEsteticaLandingPage#treatments" onClick={showNavbar}>Tratamientos</NavHashLink>
+                <NavHashLink to="/VanityEsteticaLandingPage#contact" onClick={showNavbar}>Contacto</NavHashLink>     
 
                 <button className='navbar-btn navbar-close-btn' onClick={showNavbar}></button>         
             </div>

@@ -1,5 +1,13 @@
 @media only screen and (max-width: 768px){
 
+    .treatments-list-container .treatment-item .treatment-slider-container{
+        height: 200px;
+    }
+    .treatments-list-container .treatment-item .treatment-slider-container, .treatment-slider-container .treatment-slider{
+        width: 100%;
+        border-radius: 10px;
+    }
+
     .treatments-list-container .treatments-types-button{
         flex-wrap: wrap;
         padding: 0px 50px ;
@@ -15,12 +23,14 @@
     }
 
     .treatments-list-container .treatment-item img{
-        width: 100%;
-        height: 100px;
+        width: 50%;
+        height: auto;
+        border-radius: 0 !important;
     }
 
     .treatment-item .treatment-item-content{
         padding: 40px 0;
+        width: 100%;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 1075px){
@@ -36,12 +46,22 @@
         padding: 40px 80px 0px 80px;
     }
 
-    .treatments-list-container .treatment-item img{
+    .treatments-list-container .treatment-item .treatment-slider-container{
+        height: 300px;
+    }
+    .treatments-list-container .treatment-item .treatment-slider-container, .treatment-slider-container .treatment-slider{
         width: 100%;
-        height: 200px;
+        border-radius: 10px;
+    }
+
+    .treatments-list-container .treatment-item img{
+        width: 50%;
+        height: auto;
+        border-radius: 0 !important;
     }
 
     .treatment-item .treatment-item-content{
         padding: 40px 0;
+        width: 100%;
     }
 }

@@ -24,18 +24,20 @@
     .navbar-close-btn{
         background-image: url('/src/Assets/Icons/close.svg');     
         right: 0;
+        top: 0;
     }
 
     .responsive-nav .nav-logo-container{
         left: 0;
+        top: 4.5px
     }
 
     .responsive-nav .nav-logo-container, .navbar-close-btn{
-        position: absolute;
-        top: 0;
+        position: absolute;      
     }
 
     .responsive-nav{
+        transition: 1s;
         height: 100%;
     }
 
@@ -52,6 +54,7 @@
         gap: 1rem;
         position: relative;
         height: 100%;
+        transition: 1s;
     }
 
     .responsive-nav .navbar-links-container a{
