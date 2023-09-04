@@ -16,10 +16,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="treatments" element={<Treatment />} />
           <Route path="treatments/:treatmentCategory" element={<Treatment />} />
-
-          <Route path="/VanityEsteticaLandingPage" element={<Home />} />
-          <Route path="/VanityEsteticaLandingPage/treatments" element={<Treatment />} />
-          <Route path="/VanityEsteticaLandingPage/treatments/:treatmentCategory" element={<Treatment />} />
         </Routes>
         <Footer />
       </div>

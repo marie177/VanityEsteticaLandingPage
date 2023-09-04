@@ -7,10 +7,10 @@ import { NavHashLink } from 'react-router-hash-link';
 const TreatmentsItem = (props) => {
     const [goToTreatments, setGoToTreatments] = React.useState(false);
     
-    let pathTest = "/VanityEsteticaLandingPage/treatments/" + props.treatmentCategory + "#treatments";
-    if(props.treatmentCategory == "Cosmetologicos") pathTest = "/VanityEsteticaLandingPage/treatments/Cosmetologicos#treatments";
+    let pathTest = "/treatments/" + props.treatmentCategory + "#treatments";
+    if(props.treatmentCategory == "Cosmetologicos") pathTest = "/treatments/Cosmetologicos#treatments";
     if (goToTreatments) {
-        let path = "/VanityEsteticaLandingPage/treatments/" + props.treatmentCategory + "#treatments";
+        let path = "/treatments/" + props.treatmentCategory + "#treatments";
         return <Navigate to={path} />;
     }
     return (

@@ -21,11 +21,11 @@ const Treatment = () => {
 
       <div className='treatments-list-container'>
         <div className='treatments-types-button'>
-          <NavLink exact to="/VanityEsteticaLandingPage/treatments/Corporales" className='link' activeClassName="active-link">CORPORALES</NavLink>
-          <NavLink exact to="/VanityEsteticaLandingPage/treatments/Faciales" className='link' activeClassName="active-link">FACIALES</NavLink>
-          <NavLink exact to="/VanityEsteticaLandingPage/treatments/Cosmetologicos" className='link' activeClassName="active-link">COSMETOLÓGICOS</NavLink>
-          <NavLink exact to="/VanityEsteticaLandingPage/treatments/Belleza_de_ojos" className='link' activeClassName="active-link">BELLEZA DE OJOS</NavLink>
-          <NavLink exact to="/VanityEsteticaLandingPage/treatments/Masajes" className='link' activeClassName="active-link">MASAJES</NavLink>
+          <NavLink exact to="/treatments/Corporales" className='link' activeClassName="active-link">CORPORALES</NavLink>
+          <NavLink exact to="/treatments/Faciales" className='link' activeClassName="active-link">FACIALES</NavLink>
+          <NavLink exact to="/treatments/Cosmetologicos" className='link' activeClassName="active-link">COSMETOLÓGICOS</NavLink>
+          <NavLink exact to="/treatments/Belleza_de_ojos" className='link' activeClassName="active-link">BELLEZA DE OJOS</NavLink>
+          <NavLink exact to="/treatments/Masajes" className='link' activeClassName="active-link">MASAJES</NavLink>
         </div>
 
         <TreatmentCategory treatmentCategory={treatmentCategory}/>
