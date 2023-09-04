@@ -36,13 +36,13 @@ export const Navbar = () => {
 
     return (
         <nav ref={navRef}>
-            <NavHashLink to="/VanityEsteticaLandingPage#home"> <img className='nav-logo-container' src={Logo} alt='' /></NavHashLink>
+            <NavHashLink to="#home"> <img className='nav-logo-container' src={Logo} alt='' /></NavHashLink>
 
             <div className='navbar-links-container'>
-                <NavHashLink to="/VanityEsteticaLandingPage#home" onClick={showNavbar}>Inicio</NavHashLink>
-                <NavHashLink to="/VanityEsteticaLandingPage#about" onClick={showNavbar}>Nosotros</NavHashLink>
-                <NavHashLink to="/VanityEsteticaLandingPage#treatments" onClick={showNavbar}>Tratamientos</NavHashLink>
-                <NavHashLink to="/VanityEsteticaLandingPage#contact" onClick={showNavbar}>Contacto</NavHashLink>     
+                <NavHashLink to="#home" onClick={showNavbar}>Inicio</NavHashLink>
+                <NavHashLink to="#about" onClick={showNavbar}>Nosotros</NavHashLink>
+                <NavHashLink to="#treatments" onClick={showNavbar}>Tratamientos</NavHashLink>
+                <NavHashLink to="#contact" onClick={showNavbar}>Contacto</NavHashLink>     
 
                 <button className='navbar-btn navbar-close-btn' onClick={showNavbar}></button>         
             </div>
