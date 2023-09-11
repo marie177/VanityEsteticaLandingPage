@@ -21,7 +21,6 @@ const TreatmentSlider = (props) => {
     });
 
     const selectNewImage = (btnTrigger = false, images, next = true) => {
-        console.log(autoPlay)       
         if(btnTrigger) {
             setAutoPlay(0);
         }
@@ -37,7 +36,6 @@ const TreatmentSlider = (props) => {
             }
             }
             catch(e){
-                console.log("entro al catch");
                 return;
             }
         }, 500);   
