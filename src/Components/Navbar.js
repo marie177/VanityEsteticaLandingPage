@@ -36,13 +36,13 @@ export const Navbar = () => {
 
     return (
         <nav ref={navRef}>
-            <NavHashLink to="#home"> <img className='nav-logo-container' src={Logo} alt='' /></NavHashLink>
+            <NavHashLink to="/home#home"> <img className='nav-logo-container' src={Logo} alt='' /></NavHashLink>
 
             <div className='navbar-links-container'>
-                <NavHashLink to="#home" onClick={showNavbar}>Inicio</NavHashLink>
-                <NavHashLink to="#about" onClick={showNavbar}>Nosotros</NavHashLink>
-                <NavHashLink to="#treatments" onClick={showNavbar}>Tratamientos</NavHashLink>
-                <NavHashLink to="#contact" onClick={showNavbar}>Contacto</NavHashLink>     
+                <NavHashLink to="/home#home" onClick={showNavbar}>Inicio</NavHashLink>
+                <NavHashLink to="/home#about" onClick={showNavbar}>Nosotros</NavHashLink>
+                <NavHashLink to="/home#treatmentsList" onClick={showNavbar}>Tratamientos</NavHashLink>
+                <NavHashLink to="/home#contact" onClick={showNavbar}>Contacto</NavHashLink>     
 
                 <button className='navbar-btn navbar-close-btn' onClick={showNavbar}></button>         
             </div>

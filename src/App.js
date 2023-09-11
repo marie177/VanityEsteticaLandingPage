@@ -13,9 +13,10 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="treatments" element={<Treatment />} />
-          <Route path="treatments/:treatmentCategory" element={<Treatment />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/:section" element={<Home />} />
+          <Route path="/treatments" element={<Treatment />} />
+          <Route path="/treatments/:treatmentCategory" element={<Treatment />} />
         </Routes>
         <Footer />
       </div>

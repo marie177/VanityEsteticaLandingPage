@@ -4,7 +4,7 @@ import { Navigate } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
 
 const TreatmentListItem = (props) => {
-    let pathTest = "/VanityEsteticaLandingPage/treatments/" + props.treatmentCategory + "#"+props.tratamiento.replace(/ /g, '-');
+    let pathTest = "/treatments/" + props.treatmentCategory + "#"+props.tratamiento.replace(/ /g, '-');
 
     return (
         <div className='treatments-items-list'>

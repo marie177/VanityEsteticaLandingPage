@@ -4,7 +4,7 @@ import TreatmentsItem from './TreatmentsItem';
 
 const Treatments = () => {
     return (
-        <div className='treatments-container' id='treatments'>
+        <div className='treatments-container' id='treatmentsList'>
             <div className='treatments-banner'>
                 <h2 className='treatments-title'>TRATAMIENTOS</h2>
                 <p className='treatments-description'>Nuestros tratamientos están diseñados para eliminar celulitis, flacidez, adiposidad localizada, tonificar músculo, moldear la figura corporal, entre otros.</p>

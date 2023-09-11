@@ -6,8 +6,6 @@ import Treatments from './Treatments';
 import Contact from './Contact/Contact';
 
 const Home = () => {
-
-
   return (
     <div className='home-container'>
          
