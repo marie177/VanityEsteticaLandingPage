@@ -17,7 +17,6 @@ const Home = () => {
           <div className='home-banner-image-title'>
           <h1>Vanity </h1>
             <h2>BEAUTY CENTER</h2>
-            <a className='homer-banner-btn' href='#about'>VER MÁS <span className='btn-contact--icon'></span> </a>
           </div>
         </div>
         <div className='home-banner-text'>

@@ -111,13 +111,7 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
-            },
-            {
-                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
-            },
-            {
-                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+                "url": "/Assets/Images/Peeling_1.jpeg"
             }
         ]
     },
@@ -184,6 +178,180 @@
             },
             {
                 "url": "/Assets/Images/Dermaplaning_8.jpg"
+            }
+        ]
+    },
+    {
+        "title": "TRATAMIENTO DESPIGMENTANTE",
+        "contents": [
+            {
+                "position": 1,
+                "content": "Son de 3 a 5 sesiones (dependiendo la evolucion del paciente) de 30 minutos"
+            },
+            {
+                "position": 2,
+                "content": "Destinado a aclarar zonas que pueden molestarte:"
+            },
+            {
+                "position": 3,
+                "content": [
+                    {
+                        "li": "Zona intima"
+                    },
+                    {
+                        "li": "Axilas"
+                    },
+                    {
+                        "li": "Entre pierna "
+                    },
+                    {
+                        "li": "Tira de cola"
+                    },
+                    {
+                        "li": "Rodillas"
+                    },
+                    {
+                        "li": "Codos"
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "content": "En el tratamiento se colocará LUZ PULSADA + PEELING aclarante con acido glicolico o kojico dependendiendo la necesidad."
+            },
+            {
+                "position": 5,
+                "content": "Se debe realizar 1 sesion al mes SOLO EN LOS MESES DE MARZO A SEPTIEMBRE ya que el laser es fotosensible a la piel. Y no se puede exponer al sol"
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/IPL_1.jpeg"
+            },
+            {
+                "url": "/Assets/Images/Peeling_1.jpeg"
+            }
+        ]
+    },
+    {
+        "title": "EXFOLIACIÓN DE ESPALDA",
+        "contents": [
+            {
+                "position": 1,
+                "content": "LIMPIEZA PROFUNDA DE ESPALDA"
+            },
+            {
+                "position": 2,
+                "content": "Incluye:"
+            },
+            {
+                "position": 3,
+                "content": [
+                    {
+                        "li": "Leche de limpieza"
+                    },
+                    {
+                        "li": "Exfoliante"
+                    },
+                    {
+                        "li": "Punta de Diamante"
+                    },
+                    {
+                        "li": "Mascarilla desincrustante"
+                    },
+                    {
+                        "li": "Extracciones con espatula ultrasonica"
+                    },
+                    {
+                        "li": "Bruma descongestiva"
+                    },
+                    {
+                        "li": "Mascarilla adecuada al  biotipo de piel"
+                    },
+                    {
+                        "li": "Serum con activo según necesidad"
+                    },
+                    {
+                        "li": "Crema hidratante"
+                    },
+                    {
+                        "li": "SE BRINDA Y SE ORIENTA AL PACIENTE CON UNA RUTINA DE LIMPIEZA  DIARIA PARA APOYO DOMICILIARIO."
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "content": "OPCIONAL MEJOR EXFOLIACIÓN CON DERMAPLANING"
+            },
+            {
+                "position": 5,
+                "content": "Lo recomendable es hacerlo 1 vez al mes."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/ExfoliacionEspalda_1.jpeg"
+            }
+        ]
+    },
+    {
+        "title": "EXFOLIACIÓN DE ESPALDA",
+        "contents": [
+            {
+                "position": 1,
+                "content": "LIMPIEZA PROFUNDA DE GLÚTEOS"
+            },
+            {
+                "position": 2,
+                "content": "Incluye:"
+            },
+            {
+                "position": 3,
+                "content": [
+                    {
+                        "li": "Leche de limpieza"
+                    },
+                    {
+                        "li": "Exfoliante"
+                    },
+                    {
+                        "li": "Punta de Diamante"
+                    },
+                    {
+                        "li": "Mascarilla desincrustante"
+                    },
+                    {
+                        "li": "Extracciones con espatula ultrasonica"
+                    },
+                    {
+                        "li": "Bruma descongestiva"
+                    },
+                    {
+                        "li": "Mascarilla adecuada al  biotipo de piel"
+                    },
+                    {
+                        "li": "Serum con activo según necesidad"
+                    },
+                    {
+                        "li": "Crema hidratante"
+                    },
+                    {
+                        "li": "SE BRINDA Y SE ORIENTA AL PACIENTE CON UNA RUTINA DE LIMPIEZA  DIARIA PARA APOYO DOMICILIARIO."
+                    }
+                ]
+            },
+            {
+                "position": 4,
+                "content": "OPCIONAL MEJOR EXFOLIACIÓN CON DERMAPLANING"
+            },
+            {
+                "position": 5,
+                "content": "Lo recomendable es hacerlo 1 vez al mes."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/ExfoliacionGluteo_1.jpeg"
             }
         ]
     }

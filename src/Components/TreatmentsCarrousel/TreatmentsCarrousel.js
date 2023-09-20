@@ -35,7 +35,7 @@ const TreatmentsCarrousel = (props) => {
             {
                 tratamientosArray.map(tratamiento => {
                     return (
-                        <TreatmentListItem tratamiento={tratamiento.title} treatmentCategory={props.treatmentCategory} imagen={tratamiento.images[0].url}/>
+                        <TreatmentListItem key={tratamiento.title} tratamiento={tratamiento.title} treatmentCategory={props.treatmentCategory} imagen={tratamiento.images[0].url}/>
                     )
                 })
             }

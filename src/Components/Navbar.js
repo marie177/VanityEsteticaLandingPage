@@ -1,17 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Logo from "../Assets/Logo.png";
-import { Link, Route } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
-
-import {
-    Box,
-    Drawer,
-    ListItem,
-    ListItemButton,
-    ListItemIcon,
-    ListItemText
-} from "@mui/material";
-
 
 export const Navbar = () => {
 
@@ -19,21 +8,6 @@ export const Navbar = () => {
     const showNavbar = () =>{
         navRef.current.classList.toggle("responsive-nav");
     }
-    const menuOptions = [
-        {
-            text: "Inicio"
-        },
-        {
-            text: "Nosotros"
-        },
-        {
-            text: "Tratamientos"
-        },
-        {
-            text: "Contacto"
-        }
-    ];
-
     return (
         <nav ref={navRef}>
             <NavHashLink to="/home#home"> <img className='nav-logo-container' src={Logo} alt='' /></NavHashLink>

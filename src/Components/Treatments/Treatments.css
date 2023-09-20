@@ -39,11 +39,12 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    height: 100%;
+    height: auto;
 }
 
 .treatment-slider-container .treatment-slider {
     display: flex;
+    height: 100%;
     overflow: hidden;
     overflow-x: scroll;
     scroll-behavior:unset;
@@ -118,4 +119,15 @@
 .treatment-item .treatment-item-content li p {
     width: 100%;
     margin: 0;
+}
+
+.btn-volver{
+position: fixed;
+z-index: 9999;
+bottom: 0%;
+}
+
+.btn-volver span{
+    width: 15px !important;
+    background-image: url("../../Assets/Icons/left-arrow.svg") !important;
 }

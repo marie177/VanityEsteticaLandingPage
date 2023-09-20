@@ -10,10 +10,10 @@ const Footer = () => {
 
             <div>
                 <ul className='sections-list'>
-                    <li><NavHashLink to="/VanityEsteticaLandingPage#home">Inicio</NavHashLink></li>
-                    <li><NavHashLink to="/VanityEsteticaLandingPage#about">Nosotros</NavHashLink></li>
-                    <li><NavHashLink to="/VanityEsteticaLandingPage#treatments">Tratamientos</NavHashLink></li>
-                    <li><NavHashLink to="/VanityEsteticaLandingPage#contact">Contacto</NavHashLink></li>
+                    <li><NavHashLink to="/home#home">Inicio</NavHashLink></li>
+                    <li><NavHashLink to="/home#about">Nosotros</NavHashLink></li>
+                    <li><NavHashLink to="/home#treatmentsList">Tratamientos</NavHashLink></li>
+                    <li><NavHashLink to="/home#contact">Contacto</NavHashLink></li>
                 </ul>
             </div>
 

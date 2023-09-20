@@ -115,7 +115,7 @@
         ]
     },
     {
-        "title": "MIO UP",
+        "title": "MIO UP - PULSOS MÁGNETICOS ",
         "contents": [
             {
                 "position": 1,
@@ -133,7 +133,9 @@
                     {"li": "Mejora la diastasis (separación) de los músculos rectos (común en los postpartos)"},
                     {"li": "Levanta glúteos y aumenta su masa muscular"},
                     {"li": "Ideal para brazos (bíceps, tríceps) y eliminar “salero”"},
-                    {"li": "Actúa en cuádriceps, abductores y pantorrillas"}
+                    {"li": "Actúa en cuádriceps, abductores y pantorrillas"},
+                    {"li": "Entre 6 a 8 sesiones, una por semana "},
+                    {"li": "No necesita preparación previa"}
                 ]
             }
         ],
@@ -166,13 +168,13 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/LimpiezaCutis_V1.jpg"
+                "url": "/Assets/Images/Criosuccion_1.jpeg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_2.jpg"
+                "url": "/Assets/Images/Criosuccion_2.jpeg"
             },
             {
-                "url": "/Assets/Images/VenusLegacyFacial_3.jpg"
+                "url": "/Assets/Images/Vela_Slim_Plus_1.jpg"
             }
         ]
     },

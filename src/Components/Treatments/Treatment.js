@@ -2,10 +2,12 @@ import React from 'react'
 import './Treatments.css'
 import './TreatmentsMobile.css'
 import './TreatmentsTablet.css'
+import '../Contact/Contact.css'
 import TreatmentCategory from './TreatmentCategory'
 import { useParams, NavLink } from 'react-router-dom'
+import { NavHashLink } from 'react-router-hash-link';
 const Treatment = () => {
-  const {treatmentCategory} = useParams();
+  const { treatmentCategory } = useParams();
   // let elementActive = document.getElementById("#"+treatmentCategory);
   // console.log("#"+treatmentCategory);
   // console.log(elementActive);
@@ -28,8 +30,17 @@ const Treatment = () => {
           <NavLink exact to="/treatments/Masajes" className='link' activeClassName="active-link">MASAJES</NavLink>
         </div>
 
-        <TreatmentCategory treatmentCategory={treatmentCategory}/>
+        <TreatmentCategory treatmentCategory={treatmentCategory} />
       </div>
+
+      <div className='column'>
+
+      <NavHashLink to="/home#home" className='btn-volver btn-submit-form'> 
+      <span className='contact-btn-submit-icon'></span>
+          Volver atrás
+      </NavHashLink>
+      </div>
+      
     </div>
   )
 }

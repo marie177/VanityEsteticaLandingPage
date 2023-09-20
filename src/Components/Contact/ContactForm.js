@@ -42,6 +42,27 @@ const ContactForm = () => {
 
                 <div className='row'>
                     <div className='column'>
+                        <label className='label-form'>Tipo de Tratamiento</label>
+                        <select name="select-tipo-tratamiento" className='input-form select'>
+                            <option>Tratamientos Corporales</option>
+                            <option>Tratamientos Faciales</option>
+                            <option>Tratamientos Cosmetológicos</option>
+                            <option>Belleza de Ojos</option>
+                            <option>Masajes</option>
+                        </select>
+                    </div>
+                    <div className='column'>
+                        <label className='label-form'>Tratamiento</label>
+                        <select name="select-nombre-tratamiento" className='input-form select'>
+                            <option>VENUS LEGACY</option>
+                            <option>VELA SLIM + BODY GO</option>
+                            <option>LIPO LASER + VELA SLIM</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div className='row'>
+                    <div className='column'>
                         <label className='label-form'>Consulta</label>
                         <textarea name="message" className='input-form h-100px' placeholder="Quiero recibir más información sobre el tratamiento..."/>
                     </div>
