@@ -4,7 +4,7 @@ import { NavHashLink } from 'react-router-hash-link';
 const Footer = () => {
     return (
         <div className='footer'>
-            <NavHashLink to="/VanityEsteticaLandingPage#home" className='footer-logo'>            <span className='icon-estetica'></span>
+            <NavHashLink to="/home#home" className='footer-logo'>            <span className='icon-estetica'></span>
                 <h3>Vanity Estética</h3>
             </NavHashLink>
 
