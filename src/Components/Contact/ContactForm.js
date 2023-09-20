@@ -77,7 +77,7 @@ const ContactForm = () => {
                 <div className='row'>
                     <div className='column'>
                         <label className='label-form'>Tipo de Tratamiento</label>
-                        <select name="select-tipo-tratamiento" className='input-form select' onChange={e => changeTratamientosArray(e.target.value)}>
+                        <select name="selectTipoTratamientos" className='input-form select' onChange={e => changeTratamientosArray(e.target.value)}>
                             <option value="Corporales">Tratamientos Corporales</option>
                             <option value="Faciales">Tratamientos Faciales</option>
                             <option value="Cosmetologicos">Tratamientos Cosmetológicos</option>
@@ -90,7 +90,7 @@ const ContactForm = () => {
                 <div className='row'>
                     <div className='column'>
                         <label className='label-form'>Tratamiento</label>
-                        <select name="select-nombre-tratamiento" className='input-form select'>
+                        <select name="select_treatment_name" className='input-form select'>
                             {
                                 tratamientosArray.map(tratamiento => {
                                     return (
