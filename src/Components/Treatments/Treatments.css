@@ -28,6 +28,7 @@
 .treatments-list-container .treatment-item {
     display: flex;
     padding: 60px 100px 0px 100px;
+    height: 615px;
 }
 
 

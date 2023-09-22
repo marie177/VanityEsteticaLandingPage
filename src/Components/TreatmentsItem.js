@@ -18,7 +18,7 @@ const TreatmentsItem = (props) => {
             <div className='treatments-item-container overflow-h'>
                 <div className='item-container'>
                     <h2 className='title-item-container'>{props.treatmentCategory.replace(/_/g, ' ')}</h2>
-                    <p className='description-item-container'>Brindamos a nuestros pacientes una amplia variedad de tratamientos dedicados al cuidado de la salud y la Belleza.</p>
+                    <p className='description-item-container'>{props.description}</p>
                     {/* 
                     <button className='btn-contact' onClick={() => {setGoToTreatments(true);}}>VER TODOS</button> */}
 

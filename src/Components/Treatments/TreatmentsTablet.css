@@ -20,6 +20,7 @@
     .treatments-list-container .treatment-item{
         flex-direction: column;
         padding: 20px 50px 0px 50px;
+        height: auto;
     }
 
     .treatments-list-container .treatment-item img{
@@ -44,6 +45,7 @@
     .treatments-list-container .treatment-item{
         flex-direction: column;
         padding: 40px 80px 0px 80px;
+        height: auto;
     }
 
     .treatments-list-container .treatment-item .treatment-slider-container{
