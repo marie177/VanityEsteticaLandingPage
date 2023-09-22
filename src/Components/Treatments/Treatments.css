@@ -127,6 +127,7 @@
 position: fixed;
 z-index: 9999;
 bottom: 0%;
+margin-right: 10px !important;
 }
 
 .btn-volver span{
