@@ -81,6 +81,7 @@
 
 .treatment-slider img {
     border-radius: 10px;
+    min-width: 100% !important;
     width: 100%;
     height: auto;
     object-fit: cover;
