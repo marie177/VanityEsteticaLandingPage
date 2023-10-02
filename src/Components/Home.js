@@ -20,7 +20,7 @@ const Home = () => {
           </div>
         </div>
         <div className='home-banner-text'>
-          <p>Te brindamos las <strong>mejores soluciones</strong> a los numerosos problemas faciales y corporales.</p>
+          <p>Ponemos a tu disposición las <strong>soluciones más avanzadas</strong>  para mejorar afecciones estéticas, tanto corporales y faciales.</p>
         </div>
       </div>
     
