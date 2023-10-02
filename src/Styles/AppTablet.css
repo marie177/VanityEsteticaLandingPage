@@ -1,5 +1,12 @@
 @media only screen and (max-width: 768px) {
 
+    .home-banner-image-background {
+        background: linear-gradient(0deg, rgba(179, 111, 138, 0.534), rgb(246 212 226 / 57%)), url('/src/Assets/images/Vanity/background-home-mobile.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    
     .about-title {
         font-size: 20px;
     }
@@ -59,13 +66,6 @@
 
     .responsive-nav .navbar-links-container a{
         font-size: 1.2rem !important;
-    }
-
-    .home-banner-image-background {
-        background: linear-gradient(0deg, rgba(179, 111, 138, 0.534), rgb(246 212 226 / 57%)), url('/src/Assets/images/Vanity/background-home-mobile.jpg');
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
     }
 
     .home-banner-image-title{
