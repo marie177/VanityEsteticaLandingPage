@@ -17,7 +17,7 @@ img {
   background-attachment: fixed;
   background: linear-gradient(0deg, rgba(179, 111, 138, 0.534), rgb(246 212 226 / 57%)), url('/src/Assets/images/Vanity/background-home-desktop.jpg');
   background-size: cover;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
