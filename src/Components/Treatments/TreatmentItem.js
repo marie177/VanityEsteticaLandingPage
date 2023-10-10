@@ -10,8 +10,8 @@ const TreatmentItem = (props) => {
 
       <div className='treatment-item-content'>
         <h2>{props.tratamiento.title}</h2>
-          {props.tratamiento.contents.sort((a, b) => a.position > b.position ? 1 : -1).map(item => (
-            <div>{Array.isArray(item.content) ?  <TreatmentListContent arrayList={item.content}/> : item.content}</div>
+          {props.tratamiento.contents.sort((a, b) => a.position > b.position ? 1 : -1).map((item, index) => (
+            <div key={index} >{Array.isArray(item.content) ?  <TreatmentListContent arrayList={item.content}/> : item.content}</div>         
           ))}   
       </div>
     </article>

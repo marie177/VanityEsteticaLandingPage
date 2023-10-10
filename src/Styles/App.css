@@ -213,14 +213,15 @@ background: linear-gradient(0deg, rgb(179 111 138), rgb(246 212 226 / 57%));
   border-style: solid;
   padding: 10px 0px;
   width: 70%;
+  align-self: center;
+  text-align: center;
 }
 
 .about-paragraph {
   padding: 40px 0px 0px 0px;
   font-weight: 400;
-  text-align: justify;
+  text-align: center;
   line-height: 22px;
-  letter-spacing: -0.4px;
 }
 
 .btn-contact {

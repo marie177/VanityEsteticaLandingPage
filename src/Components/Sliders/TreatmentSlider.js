@@ -53,7 +53,7 @@ const TreatmentSlider = (props) => {
     return (
         <div className='treatment-slider-container'>
             <div ref={slider} className='treatment-slider'>
-                {props.arrayImages.map(imgtest => (<img src={process.env.PUBLIC_URL + imgtest.url} />))}
+                {props.arrayImages.map((imgtest, index) => (<img key={index} src={process.env.PUBLIC_URL + imgtest.url} />))}
             </div>
             <div className='treatment-slider-buttons-container'>
                 <button onClick={previous} className='btn-slider'><span>{'<'}</span></button>

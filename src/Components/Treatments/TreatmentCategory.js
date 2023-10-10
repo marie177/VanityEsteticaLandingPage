@@ -31,9 +31,9 @@ const TreatmentCategory = (props) => {
     return (
         <div>
             {
-                tratamientosArray.map(tratamiento => {
+                tratamientosArray.map((tratamiento, index) => {
                     return (
-                        <TreatmentItem tratamiento={tratamiento} />
+                        <TreatmentItem tratamiento={tratamiento} key={index} />
                     )
                 })
             }

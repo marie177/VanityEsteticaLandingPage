@@ -92,9 +92,9 @@ const ContactForm = () => {
                         <label className='label-form'>Tratamiento</label>
                         <select name="select_treatment_name" className='input-form select'>
                             {
-                                tratamientosArray.map(tratamiento => {
+                                tratamientosArray.map((tratamiento, index) => {
                                     return (
-                                        <option>{tratamiento.title}</option>
+                                        <option value={tratamiento.title} key={index}>{tratamiento.title}</option>
                                     )
                                 })
                             }

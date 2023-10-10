@@ -8,11 +8,6 @@ import { useParams, NavLink } from 'react-router-dom'
 import { NavHashLink } from 'react-router-hash-link';
 const Treatment = () => {
   const { treatmentCategory } = useParams();
-  // let elementActive = document.getElementById("#"+treatmentCategory);
-  // console.log("#"+treatmentCategory);
-  // console.log(elementActive);
-  // const activeClass ="active";
-  // elementActive.classList.add(activeClass);
 
   return (
     <div className='treatments-container' id='treatments'>
@@ -23,11 +18,11 @@ const Treatment = () => {
 
       <div className='treatments-list-container'>
         <div className='treatments-types-button'>
-          <NavLink exact to="/treatments/Corporales" className='link' activeClassName="active-link">CORPORALES</NavLink>
-          <NavLink exact to="/treatments/Faciales" className='link' activeClassName="active-link">FACIALES</NavLink>
-          <NavLink exact to="/treatments/Cosmetologicos" className='link' activeClassName="active-link">COSMETOLÓGICOS</NavLink>
-          <NavLink exact to="/treatments/Belleza_de_ojos" className='link' activeClassName="active-link">BELLEZA DE OJOS</NavLink>
-          <NavLink exact to="/treatments/Masajes" className='link' activeClassName="active-link">MASAJES</NavLink>
+          <NavLink exact="true" to="/treatments/Corporales" className='link' activeClassName="active-link">CORPORALES</NavLink>
+          <NavLink exact="true" to="/treatments/Faciales" className='link' activeClassName="active-link">FACIALES</NavLink>
+          <NavLink exact="true" to="/treatments/Cosmetologicos" className='link' activeClassName="active-link">COSMETOLÓGICOS</NavLink>
+          <NavLink exact="true" to="/treatments/Belleza_de_ojos" className='link' activeClassName="active-link">BELLEZA DE OJOS</NavLink>
+          <NavLink exact="true" to="/treatments/Masajes" className='link' activeClassName="active-link">MASAJES</NavLink>
         </div>
 
         <TreatmentCategory treatmentCategory={treatmentCategory} />
