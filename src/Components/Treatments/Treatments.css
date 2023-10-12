@@ -115,6 +115,8 @@
     margin-right: 10px;
     display: inline-block;
     border-radius: 50%;
+    align-self: flex-start;
+    margin-top: 8px;
 }
 
 .treatment-item .treatment-item-content li p {
