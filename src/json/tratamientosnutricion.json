@@ -1,0 +1,73 @@
+[
+    {
+        "title": "Nutrición",
+        "contents": [
+            {
+                "position": 1,
+                "content": "Ofrecemos un servicio de nutrición personalizado, donde evaluamos tu historial médico y hábitos alimentarios para diseñar un plan de alimentación a tu medida. Con objetivos claros y seguimiento continuo, te proporcionamos educación nutricional y estrategias adecuadas para condiciones específicas. ¡Descubrí cómo mejorar tu salud y bienestar con nosotros!"
+            },
+            {
+                "position": 2,
+                "content": "En nuestra consulta de nutrición, realizamos una evaluación completa de tu historial médico y hábitos alimentarios actuales. Establecemos objetivos personalizados basados en tus necesidades y metas de salud. La licenciada elabora un plan de alimentación a tu medida, proporcionando recomendaciones específicas sobre alimentos, porciones y horarios de comida."
+            },
+            {
+                "position": 3,
+                "content": "Durante la consulta, recibirás educación nutricional para tomar decisiones informadas sobre tu plan de alimentos, aprenderás a leer etiquetas de alimentos y obtendrás consejos prácticos para la preparación de comidas saludables. Si tienes alguna condición específica, como diabetes, hipertensión u obesidad, diseñamos estrategias nutricionales adecuadas para dicha patología."
+            },
+            {
+                "position": 4,
+                "content": "Además, la consulta incluye un seguimiento continuo para evaluar tu progreso y realizar los ajustes necesarios en tu plan de alimentación."
+            },
+            {
+                "position": 5,
+                "content": [
+                    {
+                        "li": "Antropometría (Costo Adicional)"
+                    }
+                ]
+            },
+            {
+                "position": 6,
+                "content": "La antropometría es el conjunto de mediciones y evaluaciones que se realizan para determinar las características físicas del cuerpo de una persona. Estas mediciones son esenciales para comprender mejor el estado nutricional y de salud del paciente. Incluye:"
+            },
+            {
+                "position": 7,
+                "content": [
+                    {
+                        "li": "Peso: Medición del peso corporal para evaluar el balance energético."
+                    },
+                    {
+                        "li": "Altura: Medición de la estatura, crucial para calcular el índice de masa corporal (IMC)."
+                    },
+                    {
+                        "li": "IMC: Cálculo del IMC, útil para categorizar el peso de una persona."
+                    },
+                    {
+                        "li": "Circunferencia de la Cintura: Evaluación de la distribución de la grasa corporal."
+                    },
+                    {
+                        "li": "Pliegues Cutáneos: Medición de la grasa subcutánea en diferentes partes del cuerpo."
+                    },
+                    {
+                        "li": "6. Relación Cintura-Cadera (RCC): Comparación entre las circunferencias de la cintura y la cadera."
+                    }
+                ]
+            },
+            {
+                "position": 8,
+                "content": "La antropometría proporciona datos objetivos que ayudan al nutricionista a diseñar un plan de alimentación y recomendaciones personalizadas, basadas en las necesidades y objetivos específicos del paciente. Permite monitorear los cambios en el cuerpo a lo largo del tiempo para ajustar el tratamiento y asegurar el progreso hacia las metas de salud y bienestar."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/Nutricion_1.png"
+            },
+            {
+                "url": "/Assets/Images/Nutricion_2.png"
+            },
+            {
+                "url": "/Assets/Images/Nutricion_3.png"
+            }
+        ]
+    }
+]

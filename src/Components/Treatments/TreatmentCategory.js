@@ -5,6 +5,9 @@ import TratamientosFaciales from '../../json/tratamientosfaciales.json'
 import TratamientosCosmetologicos from '../../json/tratamientoscosmetologicos.json'
 import TratamientosBellezaDeOjos from '../../json/tratamientosbellezadeojos.json'
 import TratamientosMasajes from '../../json/tratamientosmasajes.json'
+import TratamientosBellezaManosPies from '../../json/tratamientosbellezamanosypies.json'
+import TratamientosNutricion from '../../json/tratamientosnutricion.json'
+import TratamientosDepilacionDefinitiva from '../../json/tratamientosdepilaciondefinitiva.json'
 
 const TreatmentCategory = (props) => {
     let tratamientosArray = [];
@@ -23,6 +26,15 @@ const TreatmentCategory = (props) => {
             break;
         case "Masajes":
             tratamientosArray = TratamientosMasajes;
+            break;
+        case "Belleza_de_manos_pies":
+            tratamientosArray = TratamientosBellezaManosPies;
+            break;
+        case "Nutricion":
+            tratamientosArray = TratamientosNutricion;
+            break;
+        case "Depilaciondefinitiva":
+            tratamientosArray = TratamientosDepilacionDefinitiva;
             break;
         default:
             break;

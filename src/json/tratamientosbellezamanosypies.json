@@ -1,0 +1,48 @@
+[
+    {
+        "title": "Belleza de manos y pies",
+        "contents": [
+            {
+                "position": 1,
+                "content": "Belleza de manos y pies en Vanity! Es realizado por profesional capacitada,  contamos con servicio de esmaltado semipermanente, esmaltado tradicional, kapping gel y kapping acrílico, además de esculpidas en soft gel. Con más de 70 colores a elección, Vení y descubrí la calidad y dedicación que nos distingue."
+            },
+            {
+                "position": 2,
+                "content": [
+                    {
+                        "li": "El esmaltado semipermanente es una técnica de manicura que utiliza un esmalte especial curado con luz UV o LED. A diferencia del esmalte tradicional, el semipermanente dura entre 2 a 3 semanas sin descascararse, manteniendo un brillo impecable y una apariencia fresca. Es ideal para quienes buscan una solución de larga duración y resistente al desgaste diario."
+                    },
+                    {
+                        "li": "El kapping gel en uñas es una técnica que consiste en aplicar una capa de gel sobre el largo de las uñas naturales para fortalecerlas y protegerlas. Este gel proporciona un acabado brillante y duradero, ayudando a prevenir quiebres y daños, al mismo tiempo que permite mantener una apariencia natural y cuidada."
+                    },
+                    {
+                        "li": "El kapping acrílico con polvo es una técnica que implica aplicar una capa de polvo acrílico mezclado con un líquido especial sobre las uñas naturales. Esta mezcla se endurece rápidamente, formando una capa protectora que fortalece las uñas y previene quiebres. El resultado es una superficie dura y duradera que puede ser pulida y esmaltada para un acabado perfecto."
+                    },
+                    {
+                        "li": "Las uñas de soft gel son una técnica de extensión que utiliza tips de gel suave para crear uñas artificiales flexibles y ligeras. Este tip se aplica sobre las uñas naturales y se cura bajo una luz UV o LED. Las uñas de soft gel ofrecen un acabado natural y duradero, son menos propensas a romperse y se pueden remover fácilmente sin dañar las uñas naturales."
+                    }
+                ]
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/Belleza_manos_pies_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/Belleza_manos_pies_2.png"
+            },
+            {
+                "url": "/Assets/Images/Belleza_manos_pies_3.png"
+            },
+            {
+                "url": "/Assets/Images/Belleza_manos_pies_4.jpg"
+            },
+            {
+                "url": "/Assets/Images/Belleza_manos_pies_5.png"
+            },
+            {
+                "url": "/Assets/Images/Belleza_manos_pies_6.png"
+            }
+        ]
+    }
+]

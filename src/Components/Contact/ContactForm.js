@@ -5,6 +5,9 @@ import TratamientosFaciales from '../../json/tratamientosfaciales.json'
 import TratamientosCosmetologicos from '../../json/tratamientoscosmetologicos.json'
 import TratamientosBellezaDeOjos from '../../json/tratamientosbellezadeojos.json'
 import TratamientosMasajes from '../../json/tratamientosmasajes.json'
+import TratamientosBellezaManosPies from '../../json/tratamientosbellezamanosypies.json'
+import TratamientosNutricion from '../../json/tratamientosnutricion.json'
+import TratamientosDepilacionDefinitiva from '../../json/tratamientosdepilaciondefinitiva'
 
 const ContactForm = () => {
     const form = useRef();
@@ -39,8 +42,17 @@ const ContactForm = () => {
             case "Belleza_de_ojos":
                 tratamientosArray = TratamientosBellezaDeOjos;
                 break;
+            case "Belleza_de_manos_pies":
+                tratamientosArray = TratamientosBellezaManosPies;
+                break;
             case "Masajes":
                 tratamientosArray = TratamientosMasajes;
+                break;
+            case "Nutricion":
+                tratamientosArray = TratamientosNutricion;
+                break;
+            case "Depilaciondefinitiva":
+                tratamientosArray = TratamientosDepilacionDefinitiva;
                 break;
             default:
                 break;
@@ -82,7 +94,10 @@ const ContactForm = () => {
                             <option value="Faciales">Tratamientos Faciales</option>
                             <option value="Cosmetologicos">Tratamientos Cosmetológicos</option>
                             <option value="Belleza_de_ojos">Belleza de Ojos</option>
+                            <option value="Belleza_de_manos_pies">Belleza de Manos y Pies</option>
                             <option value="Masajes">Masajes</option>
+                            <option value="Nutricion">Nutrición</option>
+                            <option value="Depilaciondefinitiva">Depilación definitiva</option>
                         </select>
                     </div>
                 </div>

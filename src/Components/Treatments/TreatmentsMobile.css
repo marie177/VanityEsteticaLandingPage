@@ -1,8 +1,15 @@
 
 
 @media only screen and (max-width: 480px) {
+    /* .treatments-types-button{
+        flex-wrap: unset;
+        overflow: auto;
+        overflow-x: scroll;
+    } */
+
     .treatments-list-container .treatments-types-button .link{
         flex: 1 0 41% !important;
+        /* flex: 1 0 70% !important; */
     }
 
     .treatments-list-container .treatment-item{

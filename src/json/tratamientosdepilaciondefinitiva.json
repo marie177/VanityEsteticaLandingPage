@@ -1,0 +1,29 @@
+[
+    {
+        "title": "DEPILACIÓN DEFINITIVA",
+        "contents": [
+            {
+                "position": 1,
+                "content": "La depilación definitiva es un tratamiento que elimina el vello de manera permanente, utilizando tecnologías avanzadas láser para destruir los folículos pilosos. Esto resulta en una piel suave y sin vello a largo plazo."
+            },
+            {
+                "position": 2,
+                "content": "Ofrecemos el servicio de depilación definitiva con Crystal 3D Plus, una tecnología avanzada que garantiza resultados efectivos y duraderos. Disfrutá de una piel suave y libre de vello con un tratamiento seguro y profesional."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/depilacion_definitiva_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/depilacion_definitiva_2.png"
+            },
+            {
+                "url": "/Assets/Images/depilacion_definitiva_3.webp"
+            },
+            {
+                "url": "/Assets/Images/depilacion_definitiva_4.jpg"
+            }
+        ]
+    }
+]

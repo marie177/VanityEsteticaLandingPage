@@ -1,7 +1,8 @@
 .treatments-list-container .treatments-types-button {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     margin-top: 20px;
-    justify-content: space-between;
     padding: 20px 80px 0px 80px;
 }
 
@@ -15,9 +16,10 @@
     text-transform: uppercase;
     background-color: #CAAAB7;
     border-radius: 15px;
-    width: 16%;
+    min-width: 16%;
     text-align: center;
     transition: 0.3s;
+    align-content: center;
 }
 
 .treatments-list-container .treatments-types-button .active {
@@ -28,7 +30,7 @@
 .treatments-list-container .treatment-item {
     display: flex;
     padding: 60px 100px 0px 100px;
-    height: 615px;
+    min-height: 615px;
 }
 
 

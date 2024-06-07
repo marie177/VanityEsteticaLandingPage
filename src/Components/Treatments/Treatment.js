@@ -22,7 +22,10 @@ const Treatment = () => {
           <NavLink exact="true" to="/treatments/Faciales" className='link' activeClassName="active-link">FACIALES</NavLink>
           <NavLink exact="true" to="/treatments/Cosmetologicos" className='link' activeClassName="active-link">COSMETOLÓGICOS</NavLink>
           <NavLink exact="true" to="/treatments/Belleza_de_ojos" className='link' activeClassName="active-link">BELLEZA DE OJOS</NavLink>
+          <NavLink exact="true" to="/treatments/Belleza_de_manos_pies" className='link' activeClassName="active-link">BELLEZA DE MANOS Y PIES</NavLink>
           <NavLink exact="true" to="/treatments/Masajes" className='link' activeClassName="active-link">MASAJES</NavLink>
+          <NavLink exact="true" to="/treatments/Nutricion" className='link' activeClassName="active-link">NUTRICIÓN</NavLink>
+          <NavLink exact="true" to="/treatments/Depilaciondefinitiva" className='link' activeClassName="active-link">DEPILACIÓN DEFINITIVA</NavLink>
         </div>
 
         <TreatmentCategory treatmentCategory={treatmentCategory} />

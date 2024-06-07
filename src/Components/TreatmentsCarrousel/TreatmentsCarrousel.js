@@ -6,6 +6,9 @@ import TratamientosFaciales from '../../json/tratamientosfaciales.json'
 import TratamientosCosmetologicos from '../../json/tratamientoscosmetologicos.json'
 import TratamientosBellezaDeOjos from '../../json/tratamientosbellezadeojos.json'
 import TratamientosMasajes from '../../json/tratamientosmasajes.json'
+import TratamientosBellezaManosPies from '../../json/tratamientosbellezamanosypies.json'
+import TratamientosNutricion from '../../json/tratamientosnutricion.json'
+import TratamientosDepilacionDefinitiva from '../../json/tratamientosdepilaciondefinitiva.json'
 import BackgroundImage from '../../Assets/AboutImage.jpg'
 
 const TreatmentsCarrousel = (props) => {
@@ -17,7 +20,7 @@ const TreatmentsCarrousel = (props) => {
         case "Faciales":
             tratamientosArray = TratamientosFaciales;
             break;
-        case "Cosmetologicos":
+        case "Cosmetológicos":
             tratamientosArray = TratamientosCosmetologicos;
             break;
         case "Belleza_de_ojos":
@@ -25,6 +28,15 @@ const TreatmentsCarrousel = (props) => {
             break;
         case "Masajes":
             tratamientosArray = TratamientosMasajes;
+            break;
+        case "Belleza_de_manos_pies":
+            tratamientosArray = TratamientosBellezaManosPies;
+            break;
+        case "Nutrición":
+            tratamientosArray = TratamientosNutricion;
+            break;
+        case "Depilación_definitiva":
+            tratamientosArray = TratamientosDepilacionDefinitiva;
             break;
         default:
             break;
@@ -35,7 +47,7 @@ const TreatmentsCarrousel = (props) => {
             {
                 tratamientosArray.map(tratamiento => {
                     return (
-                        <TreatmentListItem key={tratamiento.title} tratamiento={tratamiento.title} treatmentCategory={props.treatmentCategory} imagen={tratamiento.images[0].url}/>
+                        <TreatmentListItem key={tratamiento.title} tratamiento={tratamiento.title} treatmentCategory={props.treatmentCategory} imagen={tratamiento.images[0].url} />
                     )
                 })
             }
