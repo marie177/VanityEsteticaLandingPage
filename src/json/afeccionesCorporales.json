@@ -1,0 +1,57 @@
+[
+    {
+        "nombre": "Flácidez",
+        "imagen": "/Assets/Images/afecciones/flacidez.png",
+        "tratamientos": [
+            {
+                "nombre": "",
+                "imagen": "",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Celulitis",
+        "imagen": "/Assets/Images/afecciones/celulitis.png",
+        "tratamientos": [
+            {
+                "nombre": "VELA SLIM + BODY GO",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Adipocidad",
+        "imagen": "/Assets/Images/afecciones/celulitis.png",
+        "tratamientos": [
+            {
+                "nombre": "VELA SLIM + BODY GO",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Aumentar masa muscular",
+        "imagen": "/Assets/Images/afecciones/celulitis.png",
+        "tratamientos": [
+            {
+                "nombre": "VELA SLIM + BODY GO",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Nutrición",
+        "imagen": "/Assets/Images/afecciones/celulitis.png",
+        "tratamientos": [
+            {
+                "nombre": "VELA SLIM + BODY GO",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            }
+        ]
+    }
+]

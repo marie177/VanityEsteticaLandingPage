@@ -63,21 +63,19 @@
         transition: 1s;
     }
 
+    .home-banner-text .btn-contact {
+        margin: 20px 0 5px;
+    }
+
     .responsive-nav .navbar-links-container a{
         font-size: 1.2rem !important;
     }
 
-    .home-banner-image-title{
-        text-align: center;
-        left: 0;
-        top: 38%;
-        width: 100%;
-        padding: 0;
-    }
 
-    .home-banner-image-title h1 {
-        font-size: 8rem;
-        line-height: 5rem;
+    .home-banner-image-title {
+        width: 100%;
+        padding: 60px 30px;
+        box-sizing: border-box;
     }
 
     .home-banner-image-title h2 {

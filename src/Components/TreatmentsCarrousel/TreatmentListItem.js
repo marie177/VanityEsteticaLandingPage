@@ -24,7 +24,7 @@ const TreatmentListItem = (props) => {
             <NavHashLink  to={path}>
                 <div className='item-list'>
                     <h2 className='treatment-name'>{props.tratamiento}</h2>
-                    <img src={process.env.PUBLIC_URL + props.imagen} alt="test"/>
+                    <img src={process.env.PUBLIC_URL + props.imagen} alt={props.imagen}/>
                 </div>
             </NavHashLink>
         </div>

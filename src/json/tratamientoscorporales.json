@@ -242,5 +242,118 @@
                 "url": "/Assets/Images/CrioradiofrecuenciaHimfu_4.jpg"
             }
         ]
+    },
+    {
+        "title": "Presoterapia",
+        "contents": [
+            {
+                "position": 1,
+                "content": "La presoterapia es un tratamiento no invasivo que utiliza prendas especiales inflables para aplicar presión controlada sobre diferentes partes del cuerpo. Esta presión ayuda a mejorar la circulación sanguínea y linfática, favoreciendo la eliminación de toxinas y la reducción de la retención de líquidos. Es un método utilizado para mejorar la apariencia de la piel, reducir la celulitis, aliviar la sensación de piernas cansadas y promover la recuperación muscular después del ejercicio."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/Presoterapia_1_.jpg"
+            },
+            {
+                "url": "/Assets/Images/Presoterapia_2.png"
+            }
+        ]
+    },
+    {
+        "title": "MIO UP CON BIO ROLL",
+        "contents": [
+            {
+                "position": 1,
+                "content": "MIO UP paleta con radiofrecuencia, combina 2 efectos:"
+            },
+            {
+                "position": 2,
+                "content": [
+                    {
+                        "li": "Efecto Eléctrico: Es producido por la diatermia capacitiva que tiende a normalizar el potencial eléctrico de la célula. La electricidad de la corriente y la hipertermia localizada y profunda estimulan los procesos metabólicos."
+                    },
+                    {
+                        "li": "Efecto Térmico: La aplicación de una corriente eléctrica como la radiofrecuencia provoca un incremento de temperatura a nivel dérmico que desencadena una importante hiperemia, favoreciendo la oxigenación, el aporte de nutrientes y el aumento metabólico en la zona tratada."
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "content": "La aplicación de radiofrecuencia genera un aumento de la temperatura local con aumento del flujo sanguíneo, lo que conlleva al aumento de nutrientes y oxígeno disponible en el grupo muscular a trabajar."
+            },
+            {
+                "position": 4,
+                "content": [
+                    {
+                        "li": "Revitalización de la función celular para mejorar su potencial eléctrico."
+                    },
+                    {
+                        "li": "Incremento metabólico local."
+                    },
+                    {
+                        "li": "Hiperemia local y profunda."
+                    },
+                    {
+                        "li": "Incrementa la absorción de oxígeno a nivel celular en un 200%."
+                    },
+                    {
+                        "li": "Se combina con BIO ROLL"
+                    }
+                ]
+            },
+            {
+                "position": 5,
+                "content": "BIO ROLL"
+            },
+            {
+                "position": 6,
+                "content": "La terapia “roll-dermo-movilización” o mecanoterapia produce sobre el organismo una serie de efectos fisiológicos que obedecen a fenómenos de naturaleza refleja, resultado de estímulos cutáneos que se originan por medio del sistema nervioso autónomo, o de índole mecánica, cuando el efecto se debe directamente a la presión producida por el movimiento del rodillo."
+            },
+            {
+                "position": 7,
+                "content": "La acción refleja se considera como un fenómeno del sistema nervioso autónomo; da lugar a una dilatación de los pequeños vasos sanguíneos y a un aumento de la permeabilidad capilar, lo que conduce a un incremento del flujo sanguíneo de la zona, con enrojecimiento y aumento de la temperatura transcurridos unos minutos."
+            },
+            {
+                "position": 8,
+                "content": [
+                    {
+                        "li": "Aumento del flujo sanguíneo y linfático."
+                    },
+                    {
+                        "li": "Aumento del flujo de nutrientes."
+                    },
+                    {
+                        "li": "Eliminación de productos de desecho y metabolitos, aliviando los síntomas de la celulitis."
+                    },
+                    {
+                        "li": "Resolución del edema."
+                    },
+                    {
+                        "li": "Facilitación de la actividad muscular."
+                    },
+                    {
+                        "li": "Reducción del volumen del tejido subcutáneo."
+                    },
+                    {
+                        "li": "Liberación de adherencias."
+                    }
+                ]
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_3.jpg"
+            },
+            {
+                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_4.jpg"
+            }
+        ]
     }
 ]

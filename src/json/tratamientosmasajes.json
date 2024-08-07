@@ -1,36 +1,62 @@
 [
     {
-        "title": "masaje Descontracturante",
+        "title": "Maderoterapia",
         "contents": [
             {
                 "position": 1,
-                "content": "Se realiza un Masaje Descontracturante, que en la misma sesion es acompañado de UNA de las siguientes técnicas según el paciente lo desee o la profesional crea necesario:"
+                "content": "Consiste en un masaje corporal completamente natural y no invasivo que actúa directamente sobre las células de grasa mejorando su funcionamiento. Además, al activar los fibroblastos reactiva la formación natural de elastina y colágeno en el organismo, su objetivo principal: mejorar el funcionamiento del organismo, eliminar los desechos y tonificar la figura."
             },
             {
                 "position": 2,
+                "content": "Entre los principales beneficios encontramos:"
+            },
+            {
+                "position": 3,
                 "content": [
                     {
-                        "li": "Ventosas chinas"
+                        "li": "Mejora la circulación sanguínea."
                     },
                     {
-                        "li": "Piedras calientes"
+                        "li": "Elimina la flacidez y tonifica el músculo."
                     },
                     {
-                        "li": "Deportivo"
+                        "li": "Favorece el drenaje linfático, evitando la retención de líquidos y eliminando las toxinas (efecto detox)."
                     },
                     {
-                        "li": "Reflexología"
+                        "li": "Reduce notablemente la celulitis y mejora el aspecto."
                     },
                     {
-                        "li": "Digitopuntura"
+                        "li": "Estimula la producción de colágeno, elastina y vitamina"
                     },
                     {
-                        "li": "Sonoro (con esferas chinas)"
+                        "li": "Reafirma y moldea el contorno"
                     },
                     {
-                        "li": "Alineamiento óseo"
+                        "li": "Reduce la grasa"
+                    },
+                    {
+                        "li": "Disminuye el estrés y las tensiones acumuladas revitalizando el sistema"
+                    },
+                    {
+                        "li": "Relaja"
                     }
                 ]
+            },
+            {
+                "position": 4,
+                "content": "Qué zonas se pueden tratar?"
+            },
+            {
+                "position": 5,
+                "content": "Se pueden tratar prácticamente todas las zonas del cuerpo gracias a las diferentes formas y tamaños de los utensilios de madera. Es muy eficaz en zonas difíciles como los muslos y glúteos, el abdomen, la espalda y los brazos."
+            },
+            {
+                "position": 6,
+                "content": "Cuántas sesiones de maderoterapia se necesitan para ver resultados?"
+            },
+            {
+                "position": 7,
+                "content": "El efecto reductor y el alisado de la piel se puede apreciar desde la primera sesión, por eso engancha tanto. Sin embargo, para obtener resultados más visibles y duraderos se recomienda realizar una o dos sesiónes a la semana durante uno o dos meses. Lo habitual es comenzar con un protocolo inicial de 10 sesiones de choque menos espaciadas y luego hacer varias sesiones al año de mantenimiento."
             }
         ],
         "images": [

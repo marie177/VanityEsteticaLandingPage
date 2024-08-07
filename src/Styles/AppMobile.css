@@ -8,11 +8,21 @@
     }
 
     .home-banner-image-title h1 {
-        font-size: 5.5rem !important;
-        line-height: 5rem !important;
+        font-size: 30px !important;
+        line-height: 30px !important;
     }
 
     .home-banner-image-background {
         background-position-y: 50% !important;
+    }
+
+    .home-banner-text h2 {
+        max-width: 94%;
+        font-size: 18px;
+        padding: 30px 5px 15px;
+    } 
+
+    .home-banner-text p {
+        max-width: 94%;
     }
 }

@@ -1,0 +1,79 @@
+[
+    {
+        "nombre": "Rosácea",
+        "imagen": "/Assets/Images/afecciones/rosacea.png",
+        "tratamientos": [
+            {
+                "nombre": "",
+                "imagen": "",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Telangestisias",
+        "imagen": "/Assets/Images/afecciones/rosacea.png",
+        "tratamientos": [
+            {
+                "nombre": "",
+                "imagen": "",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Acné",
+        "imagen": "/Assets/Images/afecciones/acne.png",
+        "tratamientos": [
+            {
+                "nombre": "",
+                "imagen": "",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Manchas",
+        "imagen": "/Assets/Images/afecciones/acne.png",
+        "tratamientos": [
+            {
+                "nombre": "",
+                "imagen": "",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Rejuvenecimiento",
+        "imagen": "/Assets/Images/afecciones/acne.png",
+        "tratamientos": [
+            {
+                "nombre": "",
+                "imagen": "",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Quistes de Millium",
+        "imagen": "/Assets/Images/afecciones/acne.png",
+        "tratamientos": [
+            {
+                "nombre": "",
+                "imagen": "",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Belleza de Ojos",
+        "imagen": "/Assets/Images/afecciones/acne.png",
+        "tratamientos": [
+            {
+                "nombre": "",
+                "imagen": "",
+                "url": ""
+            }
+        ]
+    }
+]
