@@ -4,8 +4,8 @@
         "imagen": "/Assets/Images/afecciones/flacidez.png",
         "tratamientos": [
             {
-                "nombre": "",
-                "imagen": "",
+                "nombre": "VELA SLIM + BODY GO",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
                 "url": ""
             }
         ]

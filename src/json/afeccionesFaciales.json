@@ -4,8 +4,8 @@
         "imagen": "/Assets/Images/afecciones/rosacea.png",
         "tratamientos": [
             {
-                "nombre": "",
-                "imagen": "",
+                "nombre": "IPL",
+                "imagen": "/Assets/Images/IPL_1.jpeg",
                 "url": ""
             }
         ]
@@ -15,8 +15,8 @@
         "imagen": "/Assets/Images/afecciones/rosacea.png",
         "tratamientos": [
             {
-                "nombre": "",
-                "imagen": "",
+                "nombre": "IPL",
+                "imagen": "/Assets/Images/IPL_1.jpeg",
                 "url": ""
             }
         ]
@@ -26,8 +26,8 @@
         "imagen": "/Assets/Images/afecciones/acne.png",
         "tratamientos": [
             {
-                "nombre": "",
-                "imagen": "",
+                "nombre": "IPL",
+                "imagen": "/Assets/Images/IPL_1.jpeg",
                 "url": ""
             }
         ]
