@@ -205,6 +205,9 @@
             },
             {
                 "url": "/Assets/Images/Vela_Slim_Plus_3.jpg"
+            },
+            {
+                "url": "/Assets/Images/Criolipolisis_Plana_7.jpg"
             }
         ]
     },
@@ -253,10 +256,13 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/Presoterapia_1_.jpg"
+                "url": "/Assets/Images/Presoterapia_1.jpg"
             },
             {
-                "url": "/Assets/Images/Presoterapia_2.png"
+                "url": "/Assets/Images/Presoterapia_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/Presoterapia_3.jpg"
             }
         ]
     },
@@ -343,16 +349,16 @@
         ],
         "images": [
             {
-                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg"
+                "url": "/Assets/Images/Mio_up_Bio_Roll_1.jpg"
             },
             {
-                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_2.jpg"
+                "url": "/Assets/Images/Mio_up_Bio_Roll_2.png"
             },
             {
-                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_3.jpg"
+                "url": "/Assets/Images/Mio_up_Bio_Roll_3.png"
             },
             {
-                "url": "/Assets/Images/CrioradiofrecuenciaHimfu_4.jpg"
+                "url": "/Assets/Images/Mio_up_Bio_Roll_4.png"
             }
         ]
     }

@@ -111,5 +111,37 @@
                 "url": "/Assets/Images/IPL_2.jpeg"
             }
         ]
+    },
+    {
+        "title": "HIFU 12D",
+        "contents": [
+            {
+                "position": 1,
+                "content": "Hifu 12D es un ultrasonido macrofocalizado. Que su objetivo es rejuvenecer y reafirmar la piel en la parte facial Y reducir el volumen en la parte corporal. En la parte corporal, tensa y reduce y reafirma!"
+            },
+            {
+                "position": 2,
+                "content": "Facial Atravieza distintas capas de la piel desde la mas superficial hasta la mas profunda, profuce colageno y elastina. Ademas el ultrasonido moviliza la adiposidad localizada que luego es eliminada de manera natural por micción."
+            },
+            {
+                "position": 3,
+                "content": "Cuenta con un cabezal de ultima tecnologia que lo distinguen de las demas tecnologias de HIFU que genera la intensidad del disparo en forma circular dando la posibilidad de llegar a zonas que los demas cabezales no llegan!"
+            },
+            {
+                "position": 4,
+                "content": "Las sesiones van a depender del paciente se puede llegar a realizar 1 sesion cada 3 meses como maximo 3 sesiones al año."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/Hifu_12_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/Hifu_12_2.jpg"
+            },
+            {
+                "url": "/Assets/Images/Hifu_12_3.jpg"
+            }
+        ] 
     }
 ]
