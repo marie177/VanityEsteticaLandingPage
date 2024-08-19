@@ -16,9 +16,9 @@ const AfeccionesTratamientosPopUp = ({ openPopUp, setOpenPopUp, nombreAfeccion,t
                         <div className='popUpAfeccionesTratamientos-content'>
                             {
                                 tratamientos.map((tratamiento, index) => {
-                                    console.log(tratamiento)
+                                    console.log(tratamiento.categoria)
                                     return (
-                                        <NavHashLink  to={"/treatments/" + categoria + "#" + tratamiento.nombre.replace(/ /g, '-')} className='tratamiento' key={index}>
+                                        <NavHashLink  to={"/treatments/" + tratamiento.categoria + "#" + tratamiento.nombre.replace(/ /g, '-')} className='tratamiento' key={index}>
                                             <img alt='tratamiento ' src={process.env.PUBLIC_URL + tratamiento.imagen} />
                                             <h4>{tratamiento.nombre}
                                             </h4>

@@ -1,11 +1,172 @@
 [
     {
-        "nombre": "Flácidez",
+        "nombre": "Estrías",
+        "imagen": "/Assets/Images/afecciones/Estrias.png",
+        "tratamientos": [
+            {
+                "nombre": "DERMAPEN",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermapen_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "VELA SLIM + BODY GO",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_2.jpg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Retención de líquidos",
+        "imagen": "/Assets/Images/afecciones/Retención_de_líquidos.png",
+        "tratamientos": [
+            {
+                "nombre": "Presoterapia",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Presoterapia_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "url": ""
+            }
+        ]
+    },    
+    {
+        "nombre": "Cicatrices",
+        "imagen": "/Assets/Images/afecciones/Cicatrices.png",
+        "tratamientos": [
+            {
+                "nombre": "DERMAPEN",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermapen_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "IPL",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/IPL_1.jpeg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Piel de naranja",
         "imagen": "/Assets/Images/afecciones/flacidez.png",
         "tratamientos": [
             {
                 "nombre": "VELA SLIM + BODY GO",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_2.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "VENUS LEGACY",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Venus_Legacy_Corporal_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Dolores musculares",
+        "imagen": "/Assets/Images/afecciones/Dolores_musculares.png",
+        "tratamientos": [
+            {
+                "nombre": "VELA SLIM + BODY GO",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Stress",
+        "imagen": "/Assets/Images/afecciones/Stress.png",
+        "tratamientos": [
+            {
+                "nombre": "VELA SLIM + BODY GO",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Flácidez",
+        "imagen": "/Assets/Images/afecciones/flacidez.png",
+        "tratamientos": [
+            {
+                "nombre": "HIFU 12D",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Hifu_12_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "HIMFU + CRIORADIOFRECUENCIA",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "VENUS LEGACY",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Venus_Legacy_Corporal_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "VELA SLIM + BODY GO",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Adipocidad",
+        "imagen": "/Assets/Images/afecciones/Adipocidad.png",
+        "tratamientos": [
+            {
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "url": ""
+            },
+            {
+                "nombre": "VENUS LEGACY",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Venus_Legacy_Corporal_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "VELA SLIM + BODY GO",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Aumentar masa muscular",
+        "imagen": "/Assets/Images/afecciones/masa_muscular.png",
+        "tratamientos": [
+            {
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
                 "url": ""
             }
         ]
@@ -15,41 +176,46 @@
         "imagen": "/Assets/Images/afecciones/celulitis.png",
         "tratamientos": [
             {
-                "nombre": "VELA SLIM + BODY GO",
-                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
-                "url": ""
-            }
-        ]
-    },
-    {
-        "nombre": "Adipocidad",
-        "imagen": "/Assets/Images/afecciones/celulitis.png",
-        "tratamientos": [
+                "nombre": "VENUS LEGACY",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Venus_Legacy_Corporal_1.jpg",
+                "url": "" 
+            },
             {
                 "nombre": "VELA SLIM + BODY GO",
+                "categoria": "Corporales",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
                 "url": ""
-            }
-        ]
-    },
-    {
-        "nombre": "Aumentar masa muscular",
-        "imagen": "/Assets/Images/afecciones/celulitis.png",
-        "tratamientos": [
+            },
             {
-                "nombre": "VELA SLIM + BODY GO",
-                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "url": ""
+            },
+            {
+                "nombre": "HIMFU + CRIORADIOFRECUENCIA",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "Presoterapia",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Presoterapia_1.jpg",
                 "url": ""
             }
         ]
     },
+
     {
         "nombre": "Nutrición",
-        "imagen": "/Assets/Images/afecciones/celulitis.png",
+        "imagen": "/Assets/Images/afecciones/nutricion.png",
         "tratamientos": [
             {
-                "nombre": "VELA SLIM + BODY GO",
-                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "nombre": "Nutrición",
+                "categoria": "Nutricion",
+                "imagen": "/Assets/Images/afecciones/nutricion.png",
                 "url": ""
             }
         ]

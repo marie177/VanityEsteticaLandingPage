@@ -5,17 +5,31 @@
         "tratamientos": [
             {
                 "nombre": "IPL",
+                "categoria": "Faciales",
                 "imagen": "/Assets/Images/IPL_1.jpeg",
+                "url": ""
+            },
+            {
+                "nombre": "CRIORADIOFRECUENCIA",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
                 "url": ""
             }
         ]
     },
     {
         "nombre": "Telangestisias",
-        "imagen": "/Assets/Images/afecciones/rosacea.png",
+        "imagen": "/Assets/Images/afecciones/Telangestisias.png",
         "tratamientos": [
             {
                 "nombre": "IPL",
+                "categoria": "Faciales",
                 "imagen": "/Assets/Images/IPL_1.jpeg",
                 "url": ""
             }
@@ -27,51 +41,284 @@
         "tratamientos": [
             {
                 "nombre": "IPL",
+                "categoria": "Faciales",
                 "imagen": "/Assets/Images/IPL_1.jpeg",
                 "url": ""
-            }
-        ]
-    },
-    {
-        "nombre": "Manchas",
-        "imagen": "/Assets/Images/afecciones/acne.png",
-        "tratamientos": [
+            },
             {
-                "nombre": "",
-                "imagen": "",
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "DERMAPEN",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermapen_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "PEELING QUIMICO",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Peeling_1.jpeg",
                 "url": ""
             }
         ]
     },
     {
         "nombre": "Rejuvenecimiento",
-        "imagen": "/Assets/Images/afecciones/acne.png",
+        "imagen": "/Assets/Images/afecciones/Rejuvenecimiento.png",
         "tratamientos": [
             {
-                "nombre": "",
-                "imagen": "",
+                "nombre": "CRIORADIOFRECUENCIA",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "VENUS LEGACY",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Venus_Legacy_Corporal_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "HIFU 12D",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Hifu_12_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "DERMAPEN",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermapen_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "url": ""
+            },
+            {
+                "nombre": "PEELING QUIMICO",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Peeling_1.jpeg",
                 "url": ""
             }
         ]
     },
     {
         "nombre": "Quistes de Millium",
-        "imagen": "/Assets/Images/afecciones/acne.png",
+        "imagen": "/Assets/Images/afecciones/Quistes_de_Millium.png",
         "tratamientos": [
             {
-                "nombre": "",
-                "imagen": "",
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "PEELING QUIMICO",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Peeling_1.jpeg",
                 "url": ""
             }
         ]
     },
     {
         "nombre": "Belleza de Ojos",
+        "imagen": "/Assets/Images/afecciones/belleza_de_ojos.png",
+        "tratamientos": [
+            {
+                "nombre": "Lifting de Pestañas",
+                "categoria": "Belleza_de_ojos",
+                "imagen": "/Assets/Images/Lifting_1.jpeg",
+                "url": ""
+            },
+            {
+                "nombre": "Laminado de cejas",
+                "categoria": "Belleza_de_ojos",
+                "imagen": "/Assets/Images/Laminado_2.jpeg",
+                "url": ""
+            },
+            {
+                "nombre": "PERFILADO CON VISAGISMO",
+                "categoria": "Belleza_de_ojos",
+                "imagen": "/Assets/Images/Perfilado_2.jpeg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Hiperpigmentación",
         "imagen": "/Assets/Images/afecciones/acne.png",
         "tratamientos": [
             {
-                "nombre": "",
-                "imagen": "",
+                "nombre": "IPL",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/IPL_1.jpeg",
+                "url": ""
+            },
+            {
+                "nombre": "DERMAPEN",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermapen_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "PEELING QUIMICO",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Peeling_1.jpeg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Piel sensible",
+        "imagen": "/Assets/Images/afecciones/Piel_sensible.png",
+        "tratamientos": [
+            {
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Piel deshidratada",
+        "imagen": "/Assets/Images/afecciones/Piel_deshidratada.png",
+        "tratamientos": [
+            {
+                "nombre": "DERMAPLANING",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermaplaning_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "DERMAPEN",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermapen_1.jpg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Arrugas y líneas de expresión",
+        "imagen": "/Assets/Images/afecciones/arrugas.png",
+        "tratamientos": [
+            {
+                "nombre": "HIFU 12D",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Hifu_12_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "VENUS LEGACY",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Venus_Legacy_Corporal_1.jpg",
+                "url": "" 
+            },
+            {
+                "nombre": "CRIORADIOFRECUENCIA",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "url": ""
+            },
+            {
+                "nombre": "DERMAPEN",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermapen_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "PEELING QUIMICO",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Peeling_1.jpeg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Piel grasa",
+        "imagen": "/Assets/Images/afecciones/Piel_grasa.png",
+        "tratamientos": [
+            {
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "PEELING QUIMICO",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Peeling_1.jpeg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Piel seca",
+        "imagen": "/Assets/Images/afecciones/Piel_seca.png",
+        "tratamientos": [
+            {
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "DERMAPEN",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermapen_1.jpg",
+                "url": ""
+            }
+        ]
+    },
+    {
+        "nombre": "Ojeras y bolsas",
+        "imagen": "/Assets/Images/afecciones/ojeras_y_bolsas.png",
+        "tratamientos": [
+            {
+                "nombre": "DERMAPEN",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Dermapen_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "IPL",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/IPL_1.jpeg",
                 "url": ""
             }
         ]

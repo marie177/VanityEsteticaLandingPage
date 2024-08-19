@@ -8,7 +8,7 @@ const AfeccionesCarrouselItem = ({imagen, nombre, tratamientos, categoria}) => {
   
   return (
     <div className='afecciones-carrousel--item' onClick={() => setOpenPopUp(true)}>
-        <img alt="afeccion rosácea" src={process.env.PUBLIC_URL + imagen}/>
+        <img alt="afeccion" src={process.env.PUBLIC_URL + imagen}/>
         <h3>{nombre}</h3>
 
         {
