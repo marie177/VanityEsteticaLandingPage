@@ -19,7 +19,7 @@ const Home = () => {
             <source src={VideoBg} type="video/mp4" />
           </video>
           <div className='home-banner-image-title change'>
-            <h1>Descubrí tu mejor versión en Vanity Beauty Center</h1>
+            <h1>Vanity Beauty Center</h1>
           </div> 
           {/* <div className='home-banner-image-background'></div>
           <div className='home-banner-image-title'>
