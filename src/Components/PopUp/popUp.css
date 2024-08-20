@@ -21,6 +21,7 @@
 
 .popUp-container .popUp.popUpAfeccionesTratamientos {
     padding: 35px 50px;
+    position: relative;
 }
 
 .popUpAfeccionesTratamientos .popUpAfeccionesTratamientos-title {
@@ -107,4 +108,24 @@
 
 .popUp.popUpAfeccionesTratamientos .btn-turno:hover {
     background-color: #79465a;
+}
+
+@media only screen and (max-width: 480px) {
+    .popUp-container .popUp.popUpAfeccionesTratamientos {
+        width: 365px !important;
+        padding: 26px !important;
+    }
+
+    .popUpAfeccionesTratamientos h3.popUpAfeccionesTratamientos-title {
+        font-size: 19px !important;
+    }
+
+    .popUp.popUpAfeccionesTratamientos .btn-turno {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+
+    .popUpAfeccionesTratamientos .popUpAfeccionesTratamientos-content {
+        height: 60vh !important;
+    }
 }
