@@ -10,9 +10,21 @@
                 "url": ""
             },
             {
-                "nombre": "VELA SLIM + BODY GO",
+                "nombre": "LIPO LASER + VELA SLIM",
                 "categoria": "Corporales",
-                "imagen": "/Assets/Images/Vela_Slim_Plus_2.jpg",
+                "imagen": "/Assets/Images/Lipolaser_5.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "BIO ROLL",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_1.jpg",
                 "url": ""
             }
         ]
@@ -28,9 +40,21 @@
                 "url": ""
             },
             {
-                "nombre": "MIO UP CON BIO ROLL",
-                "categoria": "Corporales",
-                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "nombre": "BIO ROLL",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "Masajes",
+                "categoria": "Masajes",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
                 "url": ""
             }
         ]
@@ -50,29 +74,11 @@
                 "categoria": "Faciales",
                 "imagen": "/Assets/Images/IPL_1.jpeg",
                 "url": ""
-            }
-        ]
-    },
-    {
-        "nombre": "Piel de naranja",
-        "imagen": "/Assets/Images/afecciones/flacidez.png",
-        "tratamientos": [
-            {
-                "nombre": "VELA SLIM + BODY GO",
-                "categoria": "Corporales",
-                "imagen": "/Assets/Images/Vela_Slim_Plus_2.jpg",
-                "url": ""
             },
             {
-                "nombre": "VENUS LEGACY",
-                "categoria": "Corporales",
-                "imagen": "/Assets/Images/Venus_Legacy_Corporal_1.jpg",
-                "url": "" 
-            },
-            {
-                "nombre": "MIO UP CON BIO ROLL",
-                "categoria": "Corporales",
-                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
                 "url": ""
             }
         ]
@@ -85,6 +91,12 @@
                 "nombre": "VELA SLIM + BODY GO",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
                 "url": ""
+            },
+            {
+                "nombre": "Masajes",
+                "categoria": "Masajes",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
             }
         ]
     },
@@ -96,11 +108,17 @@
                 "nombre": "VELA SLIM + BODY GO",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
                 "url": ""
+            },
+            {
+                "nombre": "Masajes",
+                "categoria": "Masajes",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
             }
         ]
     },
     {
-        "nombre": "Flácidez",
+        "nombre": "Flaccidez",
         "imagen": "/Assets/Images/afecciones/flacidez.png",
         "tratamientos": [
             {
@@ -122,9 +140,9 @@
                 "url": "" 
             },
             {
-                "nombre": "VELA SLIM + BODY GO",
+                "nombre": "LIPO LASER + VELA SLIM",
                 "categoria": "Corporales",
-                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "imagen": "/Assets/Images/Lipolaser_5.jpg",
                 "url": ""
             },
             {
@@ -132,17 +150,29 @@
                 "categoria": "Corporales",
                 "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
                 "url": ""
+            },            
+            {
+                "nombre": "VELA SLIM + MIO UP",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
             }
         ]
     },
     {
-        "nombre": "Adipocidad",
+        "nombre": "Adiposidad",
         "imagen": "/Assets/Images/afecciones/Adipocidad.png",
         "tratamientos": [
             {
-                "nombre": "MIO UP CON BIO ROLL",
+                "nombre": "MIO UP - PULSOS MÁGNETICOS",
                 "categoria": "Corporales",
-                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "imagen": "/Assets/Images/Mio_Up_8.jpg",
                 "url": ""
             },
             {
@@ -152,9 +182,27 @@
                 "url": "" 
             },
             {
-                "nombre": "VELA SLIM + BODY GO",
+                "nombre": "CRIOLIPOLISIS PLANA + VELA SLIM PLUS",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Criolipolisis_Plana_2.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "LIPO LASER + VELA SLIM",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Lipolaser_5.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "VELA SLIM + MIO UP",
                 "categoria": "Corporales",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "MIO UP CON BIO ROLL",
+                "categoria": "Corporales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_1.jpg",
                 "url": ""
             }
         ]
@@ -164,9 +212,9 @@
         "imagen": "/Assets/Images/afecciones/masa_muscular.png",
         "tratamientos": [
             {
-                "nombre": "MIO UP CON BIO ROLL",
+                "nombre": "MIO UP - PULSOS MÁGNETICOS",
                 "categoria": "Corporales",
-                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "imagen": "/Assets/Images/Mio_Up_8.jpg",
                 "url": ""
             }
         ]
@@ -182,15 +230,15 @@
                 "url": "" 
             },
             {
-                "nombre": "VELA SLIM + BODY GO",
+                "nombre": "LIPO LASER + VELA SLIM",
                 "categoria": "Corporales",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
                 "url": ""
             },
             {
-                "nombre": "MIO UP CON BIO ROLL",
+                "nombre": "VELA SLIM + MIO UP",
                 "categoria": "Corporales",
-                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "imagen": "/Assets/Images/Vela_Slim_Plus_2.jpg",
                 "url": ""
             },
             {

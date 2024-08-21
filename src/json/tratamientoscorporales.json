@@ -1,10 +1,10 @@
 [
     {
-        "title": "VELA SLIM + BODY GO",
+        "title": "VELA SLIM + MIO UP",
         "contents": [
             {
                 "position": 1,
-                "content": "BODY GO es la ultima tecnología en reafirmación, levantamiento, y aumento de volumen."
+                "content": "MIO UP es la ultima tecnología en reafirmación, levantamiento, y aumento de volumen."
             },
             {
                 "position": 2,
@@ -25,7 +25,15 @@
             },
             {
                 "position": 5,
+                "content": "Apta para reducción corporal, de adiposidad localizada, mejorar y reducir la celulitis. También tensa la piel, dando una sensación de 'planchado' mejorando visiblemente la flacidez."
+            },
+            {
+                "position": 6,
                 "content": "El protocolo indica un tratamiento de 6 a 8 sesiones, para realizar 1 vez por semana, allí verás cambios considerables. Dependiendo la zona y patología, sea flacidez, celulitis, arrugas, quizás con esas 6 a 8 sea suficiente y luego hacer un mantenimiento de 1 sesión cada 15 dias, y luego 1 al mes."
+            },
+            {
+                "position": 7,
+                "content": "SE REALIZA 1 vez por semana"
             }
         ],
         "images": [
@@ -151,30 +159,6 @@
             },
             {
                 "url": "/Assets/Images/Mio_Up_2.jpg"
-            }
-        ]
-    },
-    {
-        "title": "CRIOLIPOLISIS SUCCION + VELA SLIM PLUS",
-        "contents": [
-            {
-                "position": 1,
-                "content": "La Criolipólisis, es una técnica avanzada para la eliminación de grasa localizada que destruye el tejido adiposo, se basa en un descenso de la temperatura de la grasa localizada por debajo de los 0ºC durante aproximadamente 30 min, dependiendo de la zona a tratar. De esta forma, las células de grasa localizada, denominadas adipocitos, se destruyen por la cristalización y posterior eliminación gradual de lípidos durante un período de entre dos y seis semanas"
-            },
-            {
-                "position": 2,
-                "content": "Trabajamos con criolipolisis succion que consiste en dos cabezales que funcionan con técnica de succión al vacío que permite aislar así el tejido adiposo que se desea eliminar para mejorar la figura. El procedimiento permite absorber al vacío, sin efectos secundarios, por lo que no actúa de forma invasiva y es rápido."
-            }
-        ],
-        "images": [
-            {
-                "url": "/Assets/Images/Criosuccion_1.jpeg"
-            },
-            {
-                "url": "/Assets/Images/Criosuccion_2.jpeg"
-            },
-            {
-                "url": "/Assets/Images/Vela_Slim_Plus_1.jpg"
             }
         ]
     },

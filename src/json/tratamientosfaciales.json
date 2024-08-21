@@ -176,5 +176,107 @@
                 "url": "/Assets/Images/Hifu_12_3.jpg"
             }
         ]
+    },
+    {
+        "title": "BIO ROLL",
+        "contents": [
+            {
+                "position": 1,
+                "content": "La terapia “roll-dermo-movilización” o mecanoterapia produce sobre el organismo una serie de efectos fisiológicos que obedecen a fenómenos de naturaleza refleja, resultado de estímulos cutáneos que se originan por medio del sistema nervioso autónomo, o de índole mecánica, cuando el efecto se debe directamente a la presión producida por el movimiento del rodillo."
+            },
+            {
+                "position": 2,
+                "content": "La acción refleja se considera como un fenómeno del sistema nervioso autónomo; da lugar a una dilatación de los pequeños vasos sanguíneos y a un aumento de la permeabilidad capilar, lo que conduce a un incremento del flujo sanguíneo de la zona, con enrojecimiento y aumento de la temperatura transcurridos unos minutos."
+            },
+            {
+                "position": 3,
+                "content": [
+                    {
+                        "li": "Aumento del flujo sanguíneo y linfático."
+                    },
+                    {
+                        "li": "Aumento del flujo de nutrientes."
+                    },
+                    {
+                        "li": "Eliminación de productos de desecho y metabolitos, aliviando los síntomas de la celulitis."
+                    },
+                    {
+                        "li": "Resolución del edema."
+                    },
+                    {
+                        "li": "Facilitación de la actividad muscular."
+                    },
+                    {
+                        "li": "Reducción del volumen del tejido subcutáneo."
+                    },
+                    {
+                        "li": "Liberación de adherencias."
+                    }
+                ]
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/Bio_Roll_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/Mio_up_Bio_Roll_1.png"
+            },
+            {
+                "url": "/Assets/Images/Mio_up_Bio_Roll_4.png"
+            }
+        ]
+    },
+    {
+        "title": "Iontoforesis ",
+        "contents": [
+            {
+                "position": 1,
+                "content": "La iontoforesis es una técnica no invasiva que utiliza corrientes eléctricas suaves para introducir sustancias activas en la piel. Este tratamiento es altamente eficaz para abordar diversas afecciones dermatológicas y estéticas, como las siguientes:"
+            },
+            {
+                "position": 2,
+                "content": [
+                    {
+                        "li": "Rosácea: Ayuda a reducir la inflamación y a calmar la piel sensible, mejorando la apariencia de enrojecimiento."
+                    },
+                    {
+                        "li": "Acné: Facilita la penetración de ingredientes activos que combaten las bacterias y reducen la inflamación, promoviendo una piel más limpia."
+                    },
+                    {
+                        "li": "Crio radiofrecuencia: Aunque no es una afección en sí, la iontoforesis puede complementar tratamientos de crio radiofrecuencia, optimizando la efectividad de los principios activos aplicados."
+                    },
+                    {
+                        "li": "Quistes de Millium: Favorece la absorción de sustancias que ayudan a disolver estos pequeños quistes, mejorando la textura de la piel."
+                    },
+                    {
+                        "li": "Estrías: Mejora la absorción de productos que estimulan la regeneración del tejido y la producción de colágeno, ayudando a reducir la visibilidad de las estrías."
+                    },
+                    {
+                        "li": "Retención de líquidos: Facilita la penetración de principios activos que mejoran la circulación y ayudan a eliminar el exceso de líquidos, reduciendo la hinchazón."
+                    }
+                ]
+            },
+            {
+                "position": 3,
+                "content": "Este procedimiento es ideal para quienes buscan un tratamiento efectivo y suave que permita tratar estas afecciones sin necesidad de métodos invasivos."
+            },
+            {
+                "position": 4,
+                "content": "Cicatrices: ayuda a introducir sustancias activas que promueven la regeneración celular y la producción de colágeno, lo que puede suavizar y atenuar la apariencia de las cicatrices con el tiempo. Es una excelente opción para quienes buscan mejorar la textura y apariencia de su piel sin recurrir a métodos más agresivos."
+            },
+            {
+                "position": 5,
+                "content": "FLACCIDEZ: Al facilitar la penetración de principios activos que estimulan la producción de colágeno y elastina, ayuda a mejorar la firmeza y tonicidad de la piel, dándole un aspecto más rejuvenecido y firme. Es una opción eficaz para quienes buscan combatir la flacidez de manera no invasiva."
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/Mio_up_Bio_Roll_1.jpg"
+            },
+            {
+                "url": "/Assets/Images/Mio_up_Bio_Roll_4.png"
+            }
+        ]
     }
 ]

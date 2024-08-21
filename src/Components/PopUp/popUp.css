@@ -110,6 +110,15 @@
     background-color: #79465a;
 }
 
+.popUp-container .popUp.popUpAfeccionesTratamientos .navbar-close-btn {
+    display: block;
+    opacity: 1 !important;
+    position: absolute;
+    background-image: url('/src/Assets/Icons/close.svg');  
+    right: 0;
+    top: 0;
+}
+
 @media only screen and (max-width: 480px) {
     .popUp-container .popUp.popUpAfeccionesTratamientos {
         width: 365px !important;

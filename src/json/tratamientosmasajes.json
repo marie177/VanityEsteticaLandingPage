@@ -70,5 +70,44 @@
                 "url": "/Assets/Images/Masajes_3.jpeg"
             }
         ]
+    },
+    {
+        "title": "Masajes",
+        "contents": [
+            {
+                "position": 1,
+                "content": [
+                    {
+                        "li": "Descontracturantes"
+                    },
+                    {
+                        "li": "Reflexologia"
+                    },
+                    {
+                        "li": "Reductor"
+                    },
+                    {
+                        "li": "Drenaje"
+                    },
+                    {
+                        "li": "Maderoterapia"
+                    },
+                    {
+                        "li": "Relajantes"
+                    }
+                ]
+            }
+        ],
+        "images": [
+            {
+                "url": "/Assets/Images/Masajes_1.jpeg"
+            },
+            {
+                "url": "/Assets/Images/Masajes_2.jpeg"
+            },
+            {
+                "url": "/Assets/Images/Masajes_3.jpeg"
+            }
+        ]
     }
 ]

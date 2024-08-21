@@ -44,6 +44,37 @@
             {
                 "position": 3,
                 "content": "SE BRINDA Y SE ORIENTA AL PACIENTE CON UNA RUTINA DE LIMPIEZA FACIAL DIARIA PARA APOYO DOMICILIARIO."
+            },
+            {
+                "position": 4,
+                "content": "La luminoterapia, también conocida como terapia de luz, es un tratamiento que utiliza luces de diferentes longitudes de onda para abordar diversas afecciones cutáneas. Este método no invasivo es efectivo para mejorar la salud y apariencia de la piel, actuando de manera específica según las necesidades de cada persona. Aquí te explico cómo puede ayudar con las siguientes afecciones:"
+            },
+            {
+                "position": 5,
+                "content": [
+                    {
+                        "li": "Rosácea: La luminoterapia con luz roja o ámbar ayuda a reducir la inflamación y enrojecimiento asociados con la rosácea, calmando la piel y mejorando su apariencia."
+                    },
+                    {
+                        "li": "Acné: La luz azul es particularmente efectiva para tratar el acné, ya que combate las bacterias que causan esta afección, disminuyendo la inflamación y reduciendo la cantidad de brotes."
+                    },
+                    {
+                        "li": "Crio radiofrecuencia: La luminoterapia puede complementar tratamientos de crio radiofrecuencia, potenciando la regeneración celular y la producción de colágeno, lo que mejora los resultados generales."
+                    },
+                    {
+                        "li": "Quistes de Millium: La luz roja o ámbar puede ayudar a reducir la inflamación y facilitar la absorción de tratamientos tópicos que disuelven los quistes."
+                    },
+                    {
+                        "li": "Piel grasa: La luz azul no solo es útil contra el acné, sino que también ayuda a regular la producción de sebo, reduciendo la apariencia grasa de la piel."
+                    },
+                    {
+                        "li": "Piel seca: La luz roja o infrarroja puede aumentar la circulación y promover la hidratación, mejorando la elasticidad y suavidad de la piel seca."
+                    }
+                ]
+            },
+            {
+                "position": 6,
+                "content": "La luminoterapia es una solución versátil y efectiva para tratar una variedad de problemas cutáneos, ayudando a mejorar la calidad de la piel de manera segura y sin dolor."
             }
         ],
         "images": [

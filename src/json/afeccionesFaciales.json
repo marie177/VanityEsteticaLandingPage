@@ -10,14 +10,14 @@
                 "url": ""
             },
             {
-                "nombre": "CRIORADIOFRECUENCIA",
-                "categoria": "Faciales",
-                "imagen": "/Assets/Images/CrioradiofrecuenciaHimfu_1.jpg",
+                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
+                "categoria": "Cosmetologicos",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
                 "url": ""
             },
             {
-                "nombre": "LIMPIEZA DE CUTIS PROFUNDA",
-                "categoria": "Cosmetologicos",
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
                 "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
                 "url": ""
             }
@@ -62,6 +62,12 @@
                 "categoria": "Cosmetologicos",
                 "imagen": "/Assets/Images/Peeling_1.jpeg",
                 "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
             }
         ]
     },
@@ -100,15 +106,21 @@
                 "url": ""
             },
             {
-                "nombre": "MIO UP CON BIO ROLL",
-                "categoria": "Corporales",
-                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "nombre": "BIO ROLL",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_1.jpg",
                 "url": ""
             },
             {
                 "nombre": "PEELING QUIMICO",
                 "categoria": "Cosmetologicos",
                 "imagen": "/Assets/Images/Peeling_1.jpeg",
+                "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
                 "url": ""
             }
         ]
@@ -127,6 +139,12 @@
                 "nombre": "PEELING QUIMICO",
                 "categoria": "Cosmetologicos",
                 "imagen": "/Assets/Images/Peeling_1.jpeg",
+                "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
                 "url": ""
             }
         ]
@@ -157,7 +175,7 @@
     },
     {
         "nombre": "Hiperpigmentación",
-        "imagen": "/Assets/Images/afecciones/acne.png",
+        "imagen": "/Assets/Images/afecciones/hiperpigmentacion.jpg",
         "tratamientos": [
             {
                 "nombre": "IPL",
@@ -182,6 +200,12 @@
                 "categoria": "Cosmetologicos",
                 "imagen": "/Assets/Images/Peeling_1.jpeg",
                 "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
             }
         ]
     },
@@ -196,9 +220,9 @@
                 "url": ""
             },
             {
-                "nombre": "MIO UP CON BIO ROLL",
-                "categoria": "Corporales",
-                "imagen": "/Assets/Images/Mio_up_Bio_Roll_2.png",
+                "nombre": "BIO ROLL",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_1.jpg",
                 "url": ""
             }
         ]
@@ -266,6 +290,12 @@
                 "categoria": "Cosmetologicos",
                 "imagen": "/Assets/Images/Peeling_1.jpeg",
                 "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
             }
         ]
     },
@@ -283,6 +313,12 @@
                 "nombre": "PEELING QUIMICO",
                 "categoria": "Cosmetologicos",
                 "imagen": "/Assets/Images/Peeling_1.jpeg",
+                "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
                 "url": ""
             }
         ]
@@ -302,6 +338,12 @@
                 "categoria": "Cosmetologicos",
                 "imagen": "/Assets/Images/Dermapen_1.jpg",
                 "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
+                "url": ""
             }
         ]
     },
@@ -319,6 +361,18 @@
                 "nombre": "IPL",
                 "categoria": "Faciales",
                 "imagen": "/Assets/Images/IPL_1.jpeg",
+                "url": ""
+            },
+            {
+                "nombre": "BIO ROLL",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Mio_up_Bio_Roll_1.jpg",
+                "url": ""
+            },
+            {
+                "nombre": "Iontoforesis",
+                "categoria": "Faciales",
+                "imagen": "/Assets/Images/Limpieza_Cutis_1.jpg",
                 "url": ""
             }
         ]
