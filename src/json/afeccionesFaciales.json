@@ -175,7 +175,7 @@
     },
     {
         "nombre": "Hiperpigmentación",
-        "imagen": "/Assets/Images/afecciones/hiperpigmentacion.jpg",
+        "imagen": "/Assets/Images/afecciones/Hiperpigmentacion.jpg",
         "tratamientos": [
             {
                 "nombre": "IPL",

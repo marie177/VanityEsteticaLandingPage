@@ -167,7 +167,7 @@
     },
     {
         "nombre": "Adiposidad",
-        "imagen": "/Assets/Images/afecciones/Adipocidad.png",
+        "imagen": "/Assets/Images/afecciones/adipocidad.png",
         "tratamientos": [
             {
                 "nombre": "MIO UP - PULSOS MÁGNETICOS",
