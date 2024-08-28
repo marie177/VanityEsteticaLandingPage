@@ -1,11 +1,11 @@
 .afecciones-container {
   background-color: #F3E7EC;
-  padding: 40px 80px;
+  padding: 40px 0;
 }
 
 .afecciones-container .afecciones-title-container {
   color: #373737;
-  margin-bottom: 20px;
+  margin: 0 80px 20px;
   letter-spacing: 1px;
   font-weight: bold;
   font-size: 1.8rem;
@@ -13,10 +13,10 @@
 
 .afecciones-carrousel {
   display: flex;
-  overflow-x: auto;
+  /* overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-x: contain;
-  scroll-snap-type: x proximity;
+  scroll-snap-type: x proximity; */
   height: auto;
   gap: 20px;
   width: 100%;
@@ -45,8 +45,8 @@
 }
 
 .afecciones-carrousel .afecciones-carrousel--item {
-  min-width: 350px;
-  width: 350px;
+  /* min-width: 350px;
+  width: 350px; */
   cursor: pointer;
 }
 
@@ -62,7 +62,7 @@
 .afecciones-carrousel .afecciones-carrousel--item h3 {
   margin-top: 10px;
   color: #373737;
-  font-size: 28px;
+  font-size: 22px;
   font-weight: 500;
 }
 
@@ -84,4 +84,29 @@
 
 .message--container .btn-contact {
   align-self: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+  color: #373737 !important;
+  height: 30px !important;
+  width: 30px !important;
+  top: 100px !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 30px !important;
+}
+
+.swiper{ 
+  padding: 0 80px !important;
+  box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .swiper{ 
+    padding: 0 10px !important;
+    box-sizing: border-box;
+  }
+  
 }

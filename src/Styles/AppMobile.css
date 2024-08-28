@@ -27,18 +27,14 @@
         font-size: 14px !important;
     }
 
-    .afecciones-container {
-        padding: 40px 30px !important;
+    .afecciones-container .afecciones-title-container{
+        margin: 0 20px 20px !important;
     }
 
     .afecciones-container .afecciones-title-container {
         font-size: 25px !important;
     }
 
-    .afecciones-carrousel .afecciones-carrousel--item {
-        width: 270px !important;
-        min-width: 270px !important;
-    }
 
     .afecciones-carrousel .afecciones-carrousel--item h3 {
         font-size: 23px !important;
