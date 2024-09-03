@@ -21,7 +21,7 @@ const Home = () => {
   // });
 
   const setVideoBg = () => {
-    var w = window.matchMedia("(max-width: 700px)");
+    var w = window.matchMedia("(max-width: 600px)");
     var vid = document.getElementById("bgVideo");
     var source = document.createElement("source");
     source.id = "srcVideo";

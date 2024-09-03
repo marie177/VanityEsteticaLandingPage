@@ -237,6 +237,14 @@
         gap: 15px;
     }
     
+    .home-banner-image-background-container {
+        height: 100%;
+        padding-top: 55px;
+    }
+
+    .home-banner-image-background-container video {
+        height: 100%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1075px){
