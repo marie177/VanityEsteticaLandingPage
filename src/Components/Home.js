@@ -8,6 +8,7 @@ import { NavHashLink } from 'react-router-hash-link';
 import Afecciones from './Afecciones/Afecciones';
 import VideoBg from '../Assets/videos/home_bg_desktop.mp4'
 import VideoBgMobile from '../Assets/videos/home_bg_mobile.mp4'
+import Whatsapp from './ui/Whatsapp';
 
 const Home = () => {
 
@@ -91,6 +92,8 @@ const Home = () => {
       <BannerMisionVision />
       <Treatments />
       <Contact />
+
+      <Whatsapp />
     </div>
   )
 }

@@ -505,3 +505,25 @@ nav {
   filter: blur(0);
   transform: translateX(0);
 }
+
+a.whatsapp--link {
+  all: unset;
+  position: fixed !important;
+  display: block !important;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+  height: 60px;
+  width: 60px;
+  background-image: url('../Assets/images/whatsapp.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: .2s;
+  z-index: 9999;
+}
+
+a.whatsapp--link:hover {
+  transition: .2s;
+  transform: scale(1.1)
+}

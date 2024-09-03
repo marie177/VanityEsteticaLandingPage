@@ -48,5 +48,8 @@
         margin: 0 !important;
     }
 
-
+    a.whatsapp--link  {
+        height: 50px;
+        width: 50px;
+    }
 }
