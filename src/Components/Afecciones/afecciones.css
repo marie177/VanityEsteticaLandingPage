@@ -52,7 +52,7 @@
 
 .afecciones-carrousel .afecciones-carrousel--item img {
   height: 180px;
-  width: 350px;
+  /* width: 350px; */
   border-radius: 15px;
   background-color: #9e828d;
   object-fit: cover;

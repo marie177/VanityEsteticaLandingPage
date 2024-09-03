@@ -34,7 +34,8 @@ const AfeccionesCarrousel = ({ afecciones, categoria }) => {
                 breakpoints={{
                     320: {
                         slidesPerView: 1,
-                        spaceBetween: 0,
+                        spaceBetween: 5,
+                        centeredSlides: true
                     },
                     620: {
                         slidesPerView: 2,
