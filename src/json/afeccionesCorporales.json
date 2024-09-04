@@ -88,7 +88,7 @@
         "imagen": "/Assets/Images/afecciones/Dolores_musculares.png",
         "tratamientos": [
             {
-                "nombre": "VELA SLIM + BODY GO",
+                "nombre": "VELA SLIM + MIO UP",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
                 "url": ""
             },
@@ -105,7 +105,7 @@
         "imagen": "/Assets/Images/afecciones/Stress.png",
         "tratamientos": [
             {
-                "nombre": "VELA SLIM + BODY GO",
+                "nombre": "VELA SLIM + MIO UP",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
                 "url": ""
             },
