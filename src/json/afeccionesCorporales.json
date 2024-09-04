@@ -89,6 +89,7 @@
         "tratamientos": [
             {
                 "nombre": "VELA SLIM + MIO UP",
+                "categoria": "Corporales",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
                 "url": ""
             },
@@ -106,6 +107,7 @@
         "tratamientos": [
             {
                 "nombre": "VELA SLIM + MIO UP",
+                "categoria": "Corporales",
                 "imagen": "/Assets/Images/Vela_Slim_Plus_1.jpg",
                 "url": ""
             },
