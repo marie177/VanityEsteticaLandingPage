@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import TratamientosCorporales from '../../json/tratamientoscorporales.json'
 import TratamientosFaciales from '../../json/tratamientosfaciales.json'
@@ -11,16 +11,25 @@ import TratamientosDepilacionDefinitiva from '../../json/tratamientosdepilaciond
 
 const ContactForm = () => {
     const form = useRef();
+    const [validations, setValidations] = useState({
+        "user_name": null,
+        "message": null
+    })
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_m0zssnh', 'template_e2i82fa', form.current, 'OllQgh0IDBjivMG8v')
-            .then((result) => {
-                form.current.reset();
-            }, (error) => {
-                console.log(error.text);
-            });
+        if (!validateFields()) {
+            console.log('form invalido')
+        }
+        else {
+            emailjs.sendForm('service_m0zssnh', 'template_e2i82fa', form.current, 'OllQgh0IDBjivMG8v')
+                .then((result) => {
+                    form.current.reset();
+                }, (error) => {
+                    console.log(error.text);
+                });
+        }
     };
 
     const [tratamientosArray, setTratamientos] = useState(TratamientosCorporales);
@@ -61,28 +70,61 @@ const ContactForm = () => {
         setTratamientos(tratamientosArray);
     }
 
+    const validateFields = () => {
+        let arrayElements = Array.from(form.current.elements).filter(element => {
+            if (!(element.nodeName.toUpperCase() === "BUTTON") && !(element.nodeName.toUpperCase() === "SELECT")) {
+                return element
+            }
+        });
+        let arrayValidations = {};
+        let validateForm = true;
+
+        arrayElements.forEach((input) => {
+            if (!form.current[input.name].value || form.current[input.name].value
+                .trim("") === '') {
+                arrayValidations[input.name] = "El campo debe contener al menos 2 carácteres"
+                if (validateForm) validateForm = false;
+            }
+            setValidations(arrayValidations)
+        })
+
+        return validateForm;
+    }
+
     return (
         <div className='contact-form-container'>
             <form className='contact-form' ref={form} onSubmit={sendEmail}>
                 <div className='row'>
                     <div className='column'>
                         <label className='label-form'>Nombre</label>
-                        <input type='text' className='input-form' name="user_name" />
+                        <input required type='text' className='input-form' name="user_name" />
+                        {
+                            validations["user_name"] ? <p className='validation'>{validations["user_name"]}</p> : null
+                        }
                     </div>
                     <div className='column'>
                         <label className='label-form'>Apellido</label>
-                        <input type='text' className='input-form' name="user_lastname" />
+                        <input required type='text' className='input-form' name="user_lastname" />
+                        {
+                            validations["user_lastname"] ? <p className='validation'>{validations["user_lastname"]}</p> : null
+                        }
                     </div>
                 </div>
 
                 <div className='row'>
                     <div className='column'>
                         <label className='label-form'>Telefono</label>
-                        <input type='text' className='input-form' name="user_telephone" />
+                        <input required type='text' className='input-form' name="user_telephone" />
+                        {
+                            validations["user_telephone"] ? <p className='validation'>{validations["user_telephone"]}</p> : null
+                        }
                     </div>
                     <div className='column'>
                         <label className='label-form'>Email</label>
-                        <input type='email' className='input-form' name="user_email" />
+                        <input required type='email' className='input-form' name="user_email" />
+                        {
+                            validations["user_email"] ? <p className='validation'>{validations["user_email"]}</p> : null
+                        }
                     </div>
                 </div>
 
@@ -120,7 +162,11 @@ const ContactForm = () => {
                 <div className='row'>
                     <div className='column'>
                         <label className='label-form'>Consulta</label>
-                        <textarea name="message" className='input-form h-100px' placeholder="Quiero recibir más información sobre el tratamiento..." />
+                        <textarea required name="message" className='input-form h-100px' placeholder="Quiero recibir más información sobre el tratamiento..." />
+
+                        {
+                            validations["message"] ? <p className='validation'>{validations["message"]}</p> : null
+                        }
                     </div>
                 </div>
 

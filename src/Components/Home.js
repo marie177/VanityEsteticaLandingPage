@@ -69,7 +69,7 @@ const Home = () => {
       <div className='home-banner-container' id='home'>
 
         <div className='home-banner-image-background-container'>
-          <video id="bgVideo" autoPlay={true} muted loop>
+          <video id="bgVideo" autoPlay={true} muted loop playsInline>
             {/* <source src={VideoBg} type="video/mp4" /> */}
           </video>
           <div className='home-banner-image-title change'>
