@@ -18,14 +18,14 @@ export const Navbar = () => {
                 <div className='dropdown-tratamientos--container'>
                     <NavHashLink to="/home#treatmentsList" onClick={showNavbar}>Tratamientos</NavHashLink>
                     <ul className='dropdown-tratamientos'>
-                        <li><NavHashLink to={"/treatments/Corporales#treatments"} >Corporales</NavHashLink></li>
-                        <li><NavHashLink to={"/treatments/Faciales#treatments"}>Faciales</NavHashLink></li>
-                        <li><NavHashLink to={"/treatments/Cosmetologicos#treatments"}>Cosmetológicos</NavHashLink></li>
-                        <li><NavHashLink to={"/treatments/Belleza_de_ojos#treatments"}>Belleza de ojos</NavHashLink></li>
-                        <li><NavHashLink to={"/treatments/Belleza_de_manos_pies#treatments"}>Belleza de manos pies</NavHashLink></li>
-                        <li><NavHashLink to={"/treatments/Masajes#treatments"}>Masajes</NavHashLink></li>
-                        <li><NavHashLink to={"/treatments/Nutricion#treatments"}>Nutrición</NavHashLink></li>
-                        <li><NavHashLink to={"/treatments/Depilaciondefinitiva#treatments"}>Depilación definitiva</NavHashLink></li>
+                        <li><NavHashLink to={"/treatments/Corporales#treatments"} onClick={showNavbar}>Corporales</NavHashLink></li>
+                        <li><NavHashLink to={"/treatments/Faciales#treatments"} onClick={showNavbar}>Faciales</NavHashLink></li>
+                        <li><NavHashLink to={"/treatments/Cosmetologicos#treatments"} onClick={showNavbar}>Cosmetológicos</NavHashLink></li>
+                        <li><NavHashLink to={"/treatments/Belleza_de_ojos#treatments"} onClick={showNavbar}>Belleza de ojos</NavHashLink></li>
+                        <li><NavHashLink to={"/treatments/Belleza_de_manos_pies#treatments"} onClick={showNavbar}>Belleza de manos pies</NavHashLink></li>
+                        <li><NavHashLink to={"/treatments/Masajes#treatments"} onClick={showNavbar}>Masajes</NavHashLink></li>
+                        <li><NavHashLink to={"/treatments/Nutricion#treatments"} onClick={showNavbar}>Nutrición</NavHashLink></li>
+                        <li><NavHashLink to={"/treatments/Depilaciondefinitiva#treatments"} onClick={showNavbar}>Depilación definitiva</NavHashLink></li>
                     </ul>
                 </div>
 
